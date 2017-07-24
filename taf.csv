@@ -1,4 +1,5 @@
-TAF.ReleaseIndependent.BasicCallControlInitialTestSuite Test Results:;
+
+TAF.ReleaseIndependent.BasicCallControlInitialTestSuite Test Results:
 testtestAddRootDomain;FAILED
 testtestAssignSesmProfile;PASSED
 testtestAssignResource;PASSED
@@ -6,8 +7,8 @@ testtestAddUsersForSesm1;PASSED
 testtestAddUsersForSesm2;PASSED
 testtestSetSesm1SystemProfileForUser;PASSED
 testtestSetSesm2SystemProfileForUser;PASSED
-;
-Automation.SSL.InitialLabSetupTestSuite Test Results:;
+
+Automation.SSL.InitialLabSetupTestSuite Test Results:
 AutoSABasicCall;PASSED
 AutoSABasicCallOnSesm2;PASSED
 AutoSSLBasicCall;PASSED
@@ -15,16 +16,16 @@ AutoSSLBasicCallOnSesm2;PASSED
 testAutoSSLSetFalseSignalSupportParmsOnSesm2;PASSED
 testAutoSSLSetFalseSignalSupportParms;PASSED
 testAutoSSLSetA2PCSipProfile;PASSED
-;
-Automation.SSL.InitialDomainSetupTestSuite Test Results:;
+
+Automation.SSL.InitialDomainSetupTestSuite Test Results:
 testAutoSSLConfigCleaner;PASSED
 testAutoSSLMOHSVCAssignDomainsToPooledRoute;PASSED
 testAutoSSLMOHAddMusicOnHoldFolder;PASSED
 testAutoSSLMOHSetMusicOnHoldDomainPool;PASSED
 testAutoSSLMOHSetMohPoolLocations;PASSED
 testAutoSSLLogoutAllContacts;PASSED
-;
-Automation.SSL.GenericCallPTestCases Test Results:;
+
+Automation.SSL.GenericCallPTestCases Test Results:
 AutoSSLBasicCall;PASSED
 AutoSSLBasicCallOnSesm2;PASSED
 AutoSSLBasicHold;PASSED
@@ -49,8 +50,8 @@ AutoSSLBasicPrackCallTermNotSupportedOrigEnds;PASSED
 AutoSSLBasicPrackCallTermNotSupportedTermEnds;PASSED
 AutoSSLBlindTransferInvalidDnFromOrig;PASSED
 AutoSSLBlindTransferInvalidDnFromTerm;PASSED
-;
-Automation.SSL.SubDomainTestSuite Test Results:;
+
+Automation.SSL.SubDomainTestSuite Test Results:
 testAutoSSLSubDomainLogoutAllContacts;PASSED
 AutoSSLBasicCallSubDomain1toRootDomain2;PASSED
 AutoSSLBasicCallRootDomain1toSubDomain2;PASSED
@@ -60,8 +61,8 @@ AutoSSLBasicCallSub1toSub1;PASSED
 AutoSSLBasicCallSubDomain1toSubDomain2;PASSED
 AutoSSLSubdomainBlindTransfer;PASSED
 AutoSSLSubdomainConsultTransfer;SKIPPED
-;
-Automation.SSL.CallGrabberTestSuite Test Results:;
+
+Automation.SSL.CallGrabberTestSuite Test Results:
 testAutoSSLCallGrabberAddVSC;PASSED
 AutoSSLNoGrabCall;PASSED
 testAutoSSLCallGrabberSetServiceForUser;PASSED
@@ -80,15 +81,15 @@ testAutoSSLCallGrabberRemoveDomainsFromSystemProfile;PASSED
 testAutoSSLCallGrabberRemoveSystemProfile;PASSED
 testAutoSSLCallGrabberRemoveServiceFromUser;PASSED
 testAutoSSLCallGrabberRemoveVSC;PASSED
-;
-Automation.SSL.BlindTransferMOH Test Results:;
+
+Automation.SSL.BlindTransferMOH Test Results:
 testAutomationSSLMOHBlindTransferChangeNEConfigParmsTrue;PASSED
 testAutomationSSLMOHSetServicesForUser;PASSED
 AutoSSLMOHBlindTransferTerm;PASSED
 testAutoSSLMOHRemoveServicesFromUser;PASSED
 testAutoSSLMOHBlindTransferChangeNEConfigParmsFalse;PASSED
-;
-Automation.SSL.SSLGICTestSuite Test Results:;
+
+Automation.SSL.SSLGICTestSuite Test Results:
 testAutoSSLGICSetServicesForUser;PASSED
 testAutoSSLGICCPLRouteAddSystemProfile;PASSED
 testAutoSSLGICCPLRouteSetSystemProfileForDomain;PASSED
@@ -98,13 +99,13 @@ AutoSSLGICCallNoEffectRouteSequentialRinging;PASSED
 testAutoSSLGICCPLRouteRemoveAllServicesFromUser;PASSED
 testAutoSSLGICCPLRouteRemoveSystemProfilesFromDomain;PASSED
 testAutoSSLGICRouteRemoveSystemProfile;PASSED
-;
-Automation.SSL.UseIPasFromDomain Test Results:;
+
+Automation.SSL.UseIPasFromDomain Test Results:
 testAutoSAUseIPasFromDomainAddSipProfile;PASSED
 AutoSSLUseIPasFromDomainCallP;PASSED
 testAutoSAUseIPasFromDomainRemoveSipProfile;PASSED
-;
-Automation.SSL.ClickToCallTestSuite Test Results:;
+
+Automation.SSL.ClickToCallTestSuite Test Results:
 testAutoSSLC2CSetServicesForUser;PASSED
 AutoSSLSBCC2CMyClientToAnotherSipLineWithDN;SKIPPED
 AutoSSLC2CAnotherClientToAnotherSipLineWithURI;SKIPPED
@@ -114,8 +115,8 @@ AutoSSLC2CMyClientToAnotherSipLineInterDomainInterSesmWithUri;SKIPPED
 AutoSSLC2CAnotherClientToAnotherSipLineWithDN;SKIPPED
 AutoSSLC2CMyClientToAnotherSipLineWithDN;SKIPPED
 testAutoSSLC2CRemoveServicesFromUsers;PASSED
-;
-Automation.SSL.EmergencyCallTestSuite Test Results:;
+
+Automation.SSL.EmergencyCallTestSuite Test Results:
 AutoSSLSBCE911CallToPSAPCompleted;SKIPPED
 AutoSSLE911CallCompletedSBCSwact;SKIPPED
 AutoSSLE911CallToPSAPCompleted;SKIPPED
@@ -124,8 +125,8 @@ testAutoSSLDenyAllCallsSetServicesForE911User;PASSED
 testAutoSSLDenyAllCallsRemoveServicesFromE911User;PASSED
 AutoSSLE911CallToPSAPIgnoredDenyAllCalls;SKIPPED
 AutoSSLE911CallToPSAPonISUPTrunk;SKIPPED
-;
-Automation.SSL.AssistantConsoleTestSuite Test Results:;
+
+Automation.SSL.AssistantConsoleTestSuite Test Results:
 testAutoSSLAssistantConsoleSetServicesForUser;PASSED
 testAutoSSLAssistantConsoleCallParkAddSystemProfile;PASSED
 testAutoSSLAssistantConsoleCallParkAddDomainsForSystemProfile;PASSED
@@ -168,8 +169,8 @@ testAutoSSLAssistantConsoleRemoveServicesFromUsers;PASSED
 testAutoSSLAssistantConsoleAdhocRemoveConferencePool;PASSED
 testAutoSSLAssistantConsoleAdhocSVCRemoveDomainFromPooledRoute;PASSED
 testAutoSSLAssistantConsoleCallParkRemoveNEConfigParams;PASSED
-;
-Automation.SSL.AddressBookTestSuite Test Results:;
+
+Automation.SSL.AddressBookTestSuite Test Results:
 testAutoSSLAddressBookSetServicesForUsers;PASSED
 testAutoSSLAddressBookPresenceSvcAddSystemProfile;PASSED
 testAutoSSLAddressBookPresenceSvcAddDomainsForSystemProfile;PASSED
@@ -186,8 +187,8 @@ testAutoSSLAddressBookPresenceSvcRemoveSPFromUser;PASSED
 testAutoSSLAddressBookPresenceSvcRemoveSPFromDomains;PASSED
 testAutoSSLAddressBookPresenceSvcRemoveSystemProfile;PASSED
 testAutoSSLAddressBookRemoveAllServicesFromUsers;PASSED
-;
-Automation.SSL.AdhocConferenceTestSuite Test Results:;
+
+Automation.SSL.AdhocConferenceTestSuite Test Results:
 testAutoSSLAdhocSVCAssignDomainsForPooledRoute;PASSED
 testAutoSSLAdhocSetPoolLocations;PASSED
 testAutoSSLAdhocSetServicesForUser;PASSED
@@ -203,8 +204,8 @@ testAutoSSLAdhocRemoveSystemProfile;PASSED
 testAutoSSLAdhocRemoveAllServicesFromUser;PASSED
 testAutoSSLAdhocRemoveConferencePool;PASSED
 testAutoSSLAdhocSVCRemoveDomainFromPooledRoute;PASSED
-;
-Automation.SSL.CPLRoutesTestSuite Test Results:;
+
+Automation.SSL.CPLRoutesTestSuite Test Results:
 testAutoSSLCPLRouteSetServicesForUser;PASSED
 testAutoSSLCPLRouteAddSystemProfile;PASSED
 testAutoSSLCPLRouteSetSystemProfileForDomain;PASSED
@@ -228,8 +229,8 @@ testAutoSSLCPLRouteRemoveSystemProfileFromUser;PASSED
 testAutoSSLCPLRouteRemoveSystemProfilesFromDomain;PASSED
 testAutoSSLCPLRouteRemoveSystemProfile;PASSED
 testAutoSSLCPLRouteRemoveAllServicesFromUser;PASSED
-;
-Automation.SSL.UCD Test Results:;
+
+Automation.SSL.UCD Test Results:
 testAutoSSLUCDSetServiceForUser;PASSED
 testAutoSSLUCDAddGroup;PASSED
 testAutoSSLUCDSetAdminForGroup;PASSED
@@ -276,8 +277,8 @@ testAutoSSLUCDRemoveCPLSystemProfileForProcessRoute;PASSED
 testAutoSSLUCDRemoveAdminFromGroup;PASSED
 testAutoSSLUCDRemoveGroup;PASSED
 testAutoSSLUCDRemoveAllServicesFromUser;PASSED
-;
-Automation.SSL.MADNTestSuite Test Results:;
+
+Automation.SSL.MADNTestSuite Test Results:
 testAutoSSLMADNAddMiscGroup;PASSED
 testAutoSSLMADNSetMiscGroupsForUser;PASSED
 testAutoSSLMADNSetServicesForUsers;PASSED
@@ -300,8 +301,8 @@ testAutoSSLMADNPresenceSvcRemoveSystemProfile;PASSED
 testAutoSSLMADNRemoveUserFromMiscGroup;PASSED
 testAutoSSLMADNRemoveMiscGroup;PASSED
 testAutoSSLMADNRemoveAllServicesFromUsers;PASSED
-;
-Automation.SSL.HuntingTestSuite Test Results:;
+
+Automation.SSL.HuntingTestSuite Test Results:
 testAutoSSLHuntingSetServicesForUser;PASSED
 testAutoSSLHuntingSetPresenceDomainData;PASSED
 testAutoSSLHuntingPresenceAddSystemProfile;PASSED
@@ -328,12 +329,12 @@ testAutoSSLHuntingRemoveMLHGroup;PASSED
 testAutoSSLHuntingRemoveAgentsForDLHGroup;PASSED
 testAutoSSLHuntingRemoveDLHGroup;PASSED
 testAutoSSLHuntingRemoveAllServicesFromUser;PASSED
-;
-Automation.SSL.AutoSSLVoicemailTestSuite Test Results:;
+
+Automation.SSL.AutoSSLVoicemailTestSuite Test Results:
 AutoSSLCFDAtoVoicemail;SKIPPED
 AutoSSLBasicVoicemail;SKIPPED
-;
-Automation.SSL.AutoSSLRegisterationTestSuite Test Results:;
+
+Automation.SSL.AutoSSLRegisterationTestSuite Test Results:
 AutoSoftClientPCCRegister;PASSED
 AutoNone_ATCA_LGE_8840Register;PASSED
 AutoATCA_Cisco_7960Register;PASSED
@@ -346,8 +347,8 @@ AutoATCA_Avaya_1140E_Register;PASSED
 AutoPolycomRegister;PASSED
 AutoPolycomVVXRegister;PASSED
 AutoAdvatelRegister;PASSED
-;
-Automation.SSL.LocationTestSuite Test Results:;
+
+Automation.SSL.LocationTestSuite Test Results:
 testAutoSSLLocationAddRouteLocation;PASSED
 testAutoSSLLocationSetLocationForUser;PASSED
 AutoSSLBasicCallSameLocation;PASSED
@@ -355,8 +356,8 @@ AutoSSLBasicCallDifferentLocation;PASSED
 AutoSSLBlindTransferRootSub1Sub2DiffLoc;PASSED
 testAutoSSLLocationRemoveLocationFromUser;PASSED
 testAutoSSLLocationRemoveLocation;PASSED
-;
-Automation.SSL.CPUTestSuite Test Results:;
+
+Automation.SSL.CPUTestSuite Test Results:
 testAutoSSLCPUSetServicesForUser;PASSED
 testAutoSSLCPUAddSystemProfile;PASSED
 testAutoSSLCPUAddDomainsForSystemProfile;PASSED
@@ -387,8 +388,8 @@ testAutoSSLCPURemoveVSC;PASSED
 testAutoSSLCPURemoveAllServicesFromUser;PASSED
 testAutoSSLCPURemoveDomainsForSystemProfile;PASSED
 testAutoSSLCPURemoveSystemProfile;PASSED
-;
-Automation.SSL.NetworkCallLogTestSuite Test Results:;
+
+Automation.SSL.NetworkCallLogTestSuite Test Results:
 testAutoSSLNetworkCallLogSetServicesForUser;PASSED
 testAutoSSLNetworkCallLogAddSystemProfile;PASSED
 testAutoSSLNetworkCallLogAddDomainsForSystemProfile;PASSED
@@ -399,16 +400,16 @@ testAutoSSLNetworkCallLogRemoveAllServicesForUsers;PASSED
 testAutoSSLNetworkCallLogGetOutgoingCallLog;PASSED
 testAutoSSLNetworkCallLogRemoveDomainsForSystemProfile;PASSED
 testAutoSSLNetworkCallLogRemoveSystemProfile;PASSED
-;
-Automation.SSL.AutoSSLBlindTransferTestSuite Test Results:;
+
+Automation.SSL.AutoSSLBlindTransferTestSuite Test Results:
 testAutoSABlindTransferNEConfigParamsTrue;PASSED
 AutoSSLBlindTransferTermSubDomain;SKIPPED
 AutoSSLBlindTransferSesmUpdateSDP;SKIPPED
 testAutoSSLCheckEarlyMediaDetectionFromSipProfile;PASSED
 AutoSSLBlindTransfer;SKIPPED
 testAutoSSLBlindTransferNEConfigParamsFalse;PASSED
-;
-Automation.SA.InitialSetupTestSuite Test Results:;
+
+Automation.SA.InitialSetupTestSuite Test Results:
 testAutoSAConfigCleaner;PASSED
 testAutoSASetFalseHandleReferParms;PASSED
 testAutoAddRootDomain;PASSED
@@ -421,22 +422,22 @@ testAutoAddUsersForSesm1DomainA;PASSED
 testAutoAddUsersForSesm2DomainA;PASSED
 testAutoAddUsersForSesm1DomainB;PASSED
 testAutoAddUsersForSesm2DomainB;PASSED
-;
-Automation.SA.InitialDomainSetupTestSuite Test Results:;
+
+Automation.SA.InitialDomainSetupTestSuite Test Results:
 testAutoMOHSVCAssignDomainsToPooledRoute;PASSED
 testAutoMOHAddMusicOnHoldFolder;PASSED
 testAutoMOHSetMusicOnHoldDomainPool;PASSED
 testAutoMOHSetMohPoolLocations;PASSED
-;
-Automation.SA.InitialDomainSSTSetupTestSuite Test Results:;
+
+Automation.SA.InitialDomainSSTSetupTestSuite Test Results:
 testAutoSASSTAssignDomainsToServiceNode;PASSED
 testAutoSASSTAssignInterOpProfileToDomainProfile;PASSED
 testAutoSASSTSetDomainCos;PASSED
 testAutoSASSTAssignDomainForCos;PASSED
 testAutoSASSTAddNewRouteList;PASSED
 testAutoSASSTAddGatewayTelephonyRoute;PASSED
-;
-Automation.SA.InitialSetupForDemoDomainTestSuite Test Results:;
+
+Automation.SA.InitialSetupForDemoDomainTestSuite Test Results:
 testAutoSAAddDemoDomain;PASSED
 testAutoSASetDemoDomainHomeCountries;PASSED
 testAutoSASetDemoDomainHomeLanguages;PASSED
@@ -444,8 +445,8 @@ testAutoSAAssignSesmSystemProfileForDemoDomain;PASSED
 testAutoSAAssignServicesForDemoDomain;PASSED
 testAutoSAAssignResourcesForDemoDomain;PASSED
 testAutoSAAddUsersForSesm1DemoDomain;PASSED
-;
-Automation.SA.GenericCallPTestCases Test Results:;
+
+Automation.SA.GenericCallPTestCases Test Results:
 AutoSABasicCall;PASSED
 AutoSABasicCallOnSesm2;PASSED
 AutoSABasicHold;PASSED
@@ -468,8 +469,8 @@ AutoSABasicPrackCallOrigEnds;PASSED
 AutoSABasicPrackCallTermEnds;PASSED
 AutoSABasicPrackCallTermNotSupportedOrigEnds;PASSED
 AutoSABasicPrackCallTermNotSupportedTermEnds;PASSED
-;
-Automation.SA.CallGrabberTestSuite Test Results:;
+
+Automation.SA.CallGrabberTestSuite Test Results:
 testAutoSACallGrabberSetServiceForUser;PASSED
 testAutoSACallGrabberAddSystemProfile;PASSED
 testAutoSACallGrabberAddDomainsForSystemProfile;PASSED
@@ -491,8 +492,8 @@ testAutoSACallGrabbersRemoveSystemProfileForUser;PASSED
 testAutoSACallGrabberRemoveDomainsForSystemProfile;PASSED
 testAutoSACallGrabberRemoveSystemProfile;PASSED
 testAutoSACallGrabberRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.CallPickUpTestSuite Test Results:;
+
+Automation.SA.CallPickUpTestSuite Test Results:
 testAutoSACallPickUpSetServiceForUser;PASSED
 testAutoSACallPickUpAddSystemProfile;PASSED
 testAutoSACallPickUpAddDomainsForSystemProfile;PASSED
@@ -520,11 +521,11 @@ testAutoSACallPickUpRemoveVerticalServiceCode;PASSED
 testAutoSACallPickupRemoveAllServicesFromUser;PASSED
 testAutoSACallPickUpRemoveDomainsForSystemProfile;PASSED
 testAutoSACallPickUpRemoveSystemProfile;PASSED
-;
-Automation.SA.FTPTestSuite Test Results:;
+
+Automation.SA.FTPTestSuite Test Results:
 testAutoSAFTP_AAK_33666;PASSED
-;
-Automation.SA.CUGTestSuite Test Results:;
+
+Automation.SA.CUGTestSuite Test Results:
 testAutoSACUGSetServiceForUser;PASSED
 testAutoSACUGAddCUGGroup;PASSED
 testAutoSACUGAddCUGGroup2;PASSED
@@ -559,8 +560,8 @@ testAutoSACUGRemoveCallParkVSC;PASSED
 testAutoSACUGRemoveCUGGroup;PASSED
 testAutoSACUGRemoveCUGGroup2;PASSED
 testAutoSACUGRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.MultipleCallRestrictionTestSuite Test Results:;
+
+Automation.SA.MultipleCallRestrictionTestSuite Test Results:
 testAutoSAMultipleCallRestrictionSetServicesForUser;PASSED
 testAutoSAMultipleCallRestrictionAddSystemProfile;PASSED
 testAutoSAMultipleCallRestrictionAddDomainsForSystemProfile;PASSED
@@ -570,8 +571,8 @@ testAutoSAMultipleCallRestrictionRemoveSystemProfileForUser;PASSED
 testAutoSAMultipleCallRestrictionRemoveDomainsForSystemProfile;PASSED
 testAutoSAMultipleCallRestrictionRemoveSystemProfile;PASSED
 testAutoSAMultipleCallRestrictionRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.CFVTestSuite Test Results:;
+
+Automation.SA.CFVTestSuite Test Results:
 testAutoSACallFwdVariantsSetServiceForUser;PASSED
 testAutoSACallFwdVariantsAddSystemProfile;PASSED
 testAutoSACallFwdVariantsAddDomainsForSystemProfile;PASSED
@@ -590,8 +591,8 @@ testAutoSACallFwdVariantsRemoveSystemProfileFromUser;PASSED
 testAutoSACallFwdVariantsRemoveAllDomainsFromSystemProfile;PASSED
 testAutoSACallFwdVariantsRemoveSystemProfile;PASSED
 testAutoSACallFwdVariantsRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.CFV_VSC_TestSuite Test Results:;
+
+Automation.SA.CFV_VSC_TestSuite Test Results:
 testAutoSAVSCCallFwdVariantsBusyEnabledSetServiceForUser;PASSED
 testAutoSAVSCCallFwdVariantsBusyEnabledAddSystemProfile;PASSED
 testAutoSAVSCCallFwdVariantsBusyEnabledAddDomainsForSystemProfile;PASSED
@@ -620,8 +621,8 @@ testAutoSAVSCCallFwdVariantsBusyEnabledRemoveSystemProfileFromUser;PASSED
 testAutoSAVSCCallFwdVariantsBusyEnabledRemoveAllDomainsFromSystemProfile;PASSED
 testAutoSAVSCCallFwdVariantsBusyEnabledRemoveSystemProfile;PASSED
 testAutoSAVSCCallFwdVariantsBusyEnabledRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.HuntingTestSuite Test Results:;
+
+Automation.SA.HuntingTestSuite Test Results:
 testAutoSAHuntingSetServicesForUser;PASSED
 testAutoSAHuntingAddMLHGroup;PASSED
 testAutoSAHuntingAddDLHGroup;PASSED
@@ -704,8 +705,8 @@ testAutoSAHuntingRemoveMLHGroup;PASSED
 testAutoSAHuntingRemoveDLHGroup;PASSED
 testAutoSAHuntingRemoveVSC;PASSED
 testAutoSAHuntingRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.AssistantConsoleTestSuite Test Results:;
+
+Automation.SA.AssistantConsoleTestSuite Test Results:
 testAutoSAAssistantConsoleSetServiceForUser;PASSED
 testAutoSAAssistantConsoleCallParkAddSystemProfile;PASSED
 testAutoSAAssistantConsoleCallParkAddDomainsForSystemProfile;PASSED
@@ -777,16 +778,16 @@ testAutoSAAssistantConsoleAdhocRemoveSystemProfile;PASSED
 testAutoSAAssistantConsoleRemoveServiceFromUser;PASSED
 testAutoSAAssistantConsoleAdhocRemovePoolLocations;PASSED
 testAutoSAAssistantConsoleAdhocRemoveDomainsToPooledRoute;PASSED
-;
-Automation.SA.BlindTransferTestSuite Test Results:;
+
+Automation.SA.BlindTransferTestSuite Test Results:
 testAutoSABlindTransferNEConfigParamsTrue;PASSED
 AutoSABlindTransferInterDomainIntraSystemWithSBC;SKIPPED
 AutoSABlindTransferIntraDomainIntraSystemWithSBC;SKIPPED
 testAutoSABlindTransferNEConfigParamsFalse;PASSED
 AutoSABlindTransferIntraDomainInterSystemWithSBC;SKIPPED
 AutoSABlindTransferInterDomainInterSystemWithSBC;SKIPPED
-;
-Automation.SA.AdhocConferenceTestSuite Test Results:;
+
+Automation.SA.AdhocConferenceTestSuite Test Results:
 testAutoSAAdhocSVCAssignDomainsToPooledRoute;PASSED
 testAutoSAAdhocNEConfigParamsSettingTrue;PASSED
 testAutoSAAdhocSVCAssignDomainsToPooledRouteDomainB;PASSED
@@ -815,16 +816,16 @@ testAutoSAAdhocRemoveAllServicesForUser;PASSED
 testAutoSAAdhocRemovePoolLocations;PASSED
 testAutoSAAdhocSVCRemoveDomainsToPooledRoute;PASSED
 testAutoSAAdhocNEConfigParamsSettingFalse;PASSED
-;
-Automation.SA.CallWaitingDisable Test Results:;
+
+Automation.SA.CallWaitingDisable Test Results:
 testAutoSACallWaitingDisableSetServiceForUser;PASSED
 AutoSACallWaitingDisableBehindSBCInterDomainIntraSystem;SKIPPED
 AutoSACallWaitingDisableBehindSBCIntraDomainInterSystem;SKIPPED
 AutoSACallWaitingDisableBehindSBCInterDomainInterSystem;SKIPPED
 AutoSACallWaitingDisableBehindSBCIntraDomainIntraSystem;SKIPPED
 testAutoSACallWaitingDisableRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.SBC.CallParkTransferTestSuite Test Results:;
+
+Automation.SA.SBC.CallParkTransferTestSuite Test Results:
 testAutoSASBCCallParkSetServiceForUser;PASSED
 testAutoSASBCCallParkAddSystemProfile;PASSED
 testAutoSASBCCallParkAddSystemProfileForDomain;PASSED
@@ -857,8 +858,8 @@ testAutoSASBCCallParkRemoveSystemProfileFromUser;PASSED
 testAutoSASBCCallParkRemoveSystemProfileFromDomain;PASSED
 testAutoSASBCCallParkRemoveSystemProfile;PASSED
 testAutoSASBCCallParkRemoveServiceFromUser;PASSED
-;
-Automation.SA.TreatmentTestSuite Test Results:;
+
+Automation.SA.TreatmentTestSuite Test Results:
 testAutoSATreatmentAssignDomainsToPooledRoute;PASSED
 testAutoSATreatmentSetPoolForDomain;PASSED
 testAutoSATreatmentSetLocation;PASSED
@@ -871,8 +872,8 @@ testAutoSATreatmentRemoveFiles;PASSED
 testAutoSATreatmentRemoveLocation;PASSED
 testAutoSATreatmentRemovePooledRouteFromDomain;PASSED
 testAutoSATreatmentRemoveDomainsFromPooledRoute;PASSED
-;
-Automation.SA.AccountCodeTestSuite Test Results:;
+
+Automation.SA.AccountCodeTestSuite Test Results:
 testAutoSAAccCodesSetServiceForUser;PASSED
 testAutoSAAccntCodesAddSystemProfile;PASSED
 testAutoSAAccntCodesAddDomainsToSystemProfile;PASSED
@@ -892,8 +893,8 @@ testAutoSAAccntCodesRemoveSystemProfileFromUser;PASSED
 testAutoSAAccntCodesRemoveDomainsFromSystemProfile;PASSED
 testAutoSAAccntCodesRemoveSystemProfile;PASSED
 testAutoSAAccCodesRemoveServiceFromUser;PASSED
-;
-Automation.SA.EmergencyCallOptionsTestSuite Test Results:;
+
+Automation.SA.EmergencyCallOptionsTestSuite Test Results:
 testAutoSAAddEmergencyNumber;PASSED
 testAutoSAE911SVCAssignDomainsToPooledRoute;PASSED
 testAutoSASetResidentialERL;PASSED
@@ -913,8 +914,8 @@ testE911PrivacyCLIRRemoveSystemProfile;PASSED
 testE911PrivacyCLIRRemoveServiceFromUsers;PASSED
 testAutoSARemoveResidentialERL;PASSED
 testAutoSARemoveEmergencyNumber;PASSED
-;
-Automation.SA.HeaderCompliancy Test Results:;
+
+Automation.SA.HeaderCompliancy Test Results:
 testAutoSAHeaderCompliancySESM1NEConfigParamsTrue;PASSED
 testAutoSAHeaderCompliancySESM2NEConfigParamsTrue;PASSED
 testAutoSAAdhocSrvcAssignDomainsToPooledRouteDomainA;PASSED
@@ -944,8 +945,8 @@ testAutoSAAdhocSvcRemovePoolLocations;PASSED
 testAutoSAAdhocSrvcRemoveDomainsToPooledRoute;PASSED
 testAutoSAHeaderCompliancySESM1NEConfigParamsFalse;PASSED
 testAutoSAHeaderCompliancySESM2NEConfigParamsFalse;PASSED
-;
-Automation.SA.BrandingTestSuite Test Results:;
+
+Automation.SA.BrandingTestSuite Test Results:
 testAutoSABrandingAssignPooledRouteForDomain;PASSED
 testAutoSABrandingAddFile;PASSED
 testAutoSABrandingSetDomainData;PASSED
@@ -953,8 +954,8 @@ AutoSAToSABrandingCallSpeechPath;SKIPPED
 testAutoSABrandingRemoveDomainData;PASSED
 testAutoSABrandingRemoveFile;PASSED
 testAutoSABrandingRemovePooledRouteForDomain;PASSED
-;
-Automation.SA.SelectiveCallRejectVSCTestSuite Test Results:;
+
+Automation.SA.SelectiveCallRejectVSCTestSuite Test Results:
 testAutoSASelectiveCallRejectVSCSetServicesForUser;PASSED
 testAutoSASelectiveCallRejectVSCSetCallReturnSystemProfileForUser;PASSED
 testAutoSASelectiveCallRejectVSCAddDomainsForCallReturnSystemProfile;PASSED
@@ -983,16 +984,16 @@ testAutoSASelectiveCallRejectVSCRemoveCallReturnSystemProfile;PASSED
 testAutoSASelectiveCallRejectVSCRemoveDomainsFromSelectiveCallRejectSystemProfile;PASSED
 testAutoSASelectiveCallRejectVSCRemoveDomainsFromCallReturnSystemProfile;PASSED
 testAutoSASelectiveCallRejectVSCRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.CallAliasTestSuite Test Results:;
+
+Automation.SA.CallAliasTestSuite Test Results:
 testAutoSASetAlphaNumericUserAlias;PASSED
 AutoSABasicCallwithAlphanumericAliasSESM1;PASSED
 AutoSABasicCallwithAlphanumericAliasSESM2;PASSED
 testAutoSASetNumericUserAlias;PASSED
 AutoSABasicCallwithNumericAliasSESM1;PASSED
 AutoSABasicCallwithNumericAliasSESM2;PASSED
-;
-Automation.SA.VideoCallTestSuite Test Results:;
+
+Automation.SA.VideoCallTestSuite Test Results:
 testAutoSAVideoSetServiceForUser;PASSED
 testAutoSAVideoAddSystemProfile;PASSED
 testAutoSAVideoAddSystemProfileForDomain;PASSED
@@ -1005,8 +1006,8 @@ testAutoSAVideoRemoveSystemProfileFromUser;PASSED
 testAutoSAVideoRemoveSystemProfileFromDomain;PASSED
 testAutoSAVideoRemoveSystemProfile;PASSED
 testAutoSAVideoRemoveServiceFromUser;PASSED
-;
-Automation.SA.IMChatTestSuite Test Results:;
+
+Automation.SA.IMChatTestSuite Test Results:
 testAutoSAIMChatSetServicesForUser;PASSED
 testAutoSAIMChatSVCAssignDomainsToPooledRoute;PASSED
 testAutoSAIMChatSetDomainPool;PASSED
@@ -1020,8 +1021,8 @@ testAutoSAIMChatRemoveSystemProfile;PASSED
 testAutoSAIMChatRemoveDomainPool;PASSED
 testAutoSAIMChatSVCRemoveDomainFromPooledRoute;PASSED
 testAutoSAIMChatRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.CallParkSelectiveCallRejectVSCTestSuite Test Results:;
+
+Automation.SA.CallParkSelectiveCallRejectVSCTestSuite Test Results:
 testAutoSACallParkGenLotOSCRSetServicesForUser;PASSED
 testAutoSACallParkGenLotOSCRAddCallParkSystemProfile;PASSED
 testAutoSACallParkGenLotOSCRAddCallParkSystemProfileForDomain;PASSED
@@ -1049,8 +1050,8 @@ testAutoSACallParkGenLotOSCRRemoveCallParkSystemProfileFromUser;PASSED
 testAutoSACallParkGenLotOSCRRemoveCallParkSystemProfileFromDomain;PASSED
 testAutoSACallParkGenLotOSCRRemoveCallParkSystemProfile;PASSED
 testAutoSACallParkGenLotOSCRRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.TeenServiceTestSuite Test Results:;
+
+Automation.SA.TeenServiceTestSuite Test Results:
 testAutoSATeenServiceAddRingToneServiceSystemProfAndAssingToDomain;PASSED
 testAutoSATeenServiceSetServicesForUser;PASSED
 testAutoSATeenServiceSetUserProfile;PASSED
@@ -1061,8 +1062,8 @@ AutoSATeenServiceCallToMemberAnswerTeenMember;PASSED
 testAutoSATeenServiceRemoveTeenGroup;PASSED
 testAutoSATeenServiceRemoveAllServicesForUser;PASSED
 testAutoSATeenServiceRemoveRingToneServiceSystemProfRemoveToDomain;PASSED
-;
-Automation.SA.InstantMessagingTestSuite Test Results:;
+
+Automation.SA.InstantMessagingTestSuite Test Results:
 testAutoSAInstantMessagingSetIMEncryptionFalse;PASSED
 testAutoSAInstantMessagingSetServicesForUser;PASSED
 testAutoSAInstantMessagingAddSystemProfile;PASSED
@@ -1077,8 +1078,8 @@ testAutoSAInstantMessagingRemoveRouteWithIM;PASSED
 testAutoSAInstantMessagingRemoveDomainData;PASSED
 testAutoSAInstantMessagingRemoveSystemProfile;PASSED
 testAutoSAInstantMessagingRemoveAllServicesFromUsers;PASSED
-;
-Automation.SA.CallTypeBasedScreningTestSuite Test Results:;
+
+Automation.SA.CallTypeBasedScreningTestSuite Test Results:
 testAutoSASetCallTypeBasedServiceForUser;PASSED
 testAutoSAAddCallTypeScrSystemProfile;PASSED
 testAutoSACallTypeScrAddDomainsForSystemProfile;PASSED
@@ -1093,8 +1094,8 @@ testAutoSACallTypeScrRemoveSystemProfileFromUser;PASSED
 testAutoSARemoveAllDomainsFromCallTypeScrSystemProfile;PASSED
 testAutoSARemoveCallTypeScrSystemProfile;PASSED
 testAutoSACallTypeScrRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.AuthorizationCodeTestSuite Test Results:;
+
+Automation.SA.AuthorizationCodeTestSuite Test Results:
 testAutoSAAuthorizationCodeTreatmentAssignDomainsToPooledRoute;PASSED
 testAutoSAAuthorizationCodeTreatmentSetPoolForDomain;PASSED
 testAutoSAAuthorizationCodeTreatmentSetLocation;PASSED
@@ -1130,8 +1131,8 @@ testAutoSAAuthorizationCodeTreatmentRemoveLocation;PASSED
 testAutoSAAuthorizationCodeTreatmentRemovePoolForDomain;PASSED
 testAutoSAAuthorizationCodeTreatmentRemoveDomainsToPooledRoute;PASSED
 testAutoSAAuthorizationCodeRemoveAllServicesForUsers;PASSED
-;
-Automation.SA.AdvancedScreeningRouteTestSuite Test Results:;
+
+Automation.SA.AdvancedScreeningRouteTestSuite Test Results:
 testAutoSAAdvScrSetServicesForUsers;PASSED
 testAutoSAAdvScrBrandingAssignPooledRouteForDomain;PASSED
 testAutoSAAdvScrBrandingAddFile;PASSED
@@ -1173,8 +1174,8 @@ testAutoSAAdvScrBrandingRemoveDomainData;PASSED
 testAutoSAAdvScrBrandingRemoveFile;PASSED
 testAutoSAAdvScrBrandingRemovePooledRouteForDomain;PASSED
 testAutoSAAdvScrRemoveServicesFromUsers;PASSED
-;
-Automation.SA.CPLRouteTestSuite Test Results:;
+
+Automation.SA.CPLRouteTestSuite Test Results:
 testAutoSACPLRouteSetServicesForUser;PASSED
 testAutoSACPLRouteAddRouteForRejectCallWithReasonHeader;PASSED
 AutoSACPLRouteCallRejectWithReasonHeader;PASSED
@@ -1182,8 +1183,8 @@ testAutoSACPLRouteModifyRouteForRejectCallWithReasonHeader;PASSED
 testAutoSACPLRouteRemoveRouteForRejectCallWithReasonHeader;PASSED
 AutoSACPLRouteCallRejectWithSpecialConditionAndReason;PASSED
 testAutoSACPLRouteRemoveAllServicesForUser;PASSED
-;
-Automation.SA.AdhocConferenceVSCTestSuite Test Results:;
+
+Automation.SA.AdhocConferenceVSCTestSuite Test Results:
 testAutoSAAdhocConferenceVSCAddVSCNameMoreThan32Char;PASSED
 testAutoSAAdhocConferenceVSCAddVSCPrefixMoreThan32Digit;PASSED
 testAutoSAAdhocConferenceVSCAddVSCName0Char;PASSED
@@ -1215,8 +1216,8 @@ testAutoSAAdhocConferenceRemoveSubDomainUser;PASSED
 testAutoSAAdhocConferenceRemoveAllServices;PASSED
 testAutoSAAdhocConferenceVSCRemoveVSCPrefixForSubDomain;PASSED
 testAutoSAAdhocConferenceRemoveSubDomain;PASSED
-;
-Automation.SA.CallParkSubDomainTestSuite Test Results:;
+
+Automation.SA.CallParkSubDomainTestSuite Test Results:
 testAutoSACallParkSubDomainHandleReferTrue;PASSED
 testAutoSACallParkSubDomainAddSubDomain;PASSED
 testAutoSACallParkSubDomainAddSubDomainUsers;PASSED
@@ -1243,8 +1244,8 @@ testAutoSACallParkSubDomainRemoveSystemProfileForDomain;PASSED
 testAutoSACallParkSubDomainRemoveSystemProfile;PASSED
 testAutoSACallParkSubDomainRemoveAllServices;PASSED
 testAutoSACallParkSubDomainHandleReferFalse;PASSED
-;
-Automation.SA.PresenceTestSuite Test Results:;
+
+Automation.SA.PresenceTestSuite Test Results:
 testAutoSAPresenceAddUser;PASSED
 testAutoSAPresenceSetServicesForUser;PASSED
 testAutoSAPresenceAddPresenceSystemProfile;PASSED
@@ -1260,8 +1261,8 @@ testAutoSAPresenceRemovePresenceSystemProfileForDomain;PASSED
 testAutoSAPresenceRemovePresenceSystemProfile;PASSED
 testAutoSAPresenceRemoveAllServicesForUser;PASSED
 testAutoSAPresenceRemoveUser;PASSED
-;
-Automation.SA.PrackTestSuite Test Results:;
+
+Automation.SA.PrackTestSuite Test Results:
 AutoSAOrigNotSupportedPrackRejectCall;PASSED
 AutoSANotSupportedPrackCall;PASSED
 AutoSAOrigNotSupportedPrackCall;PASSED
@@ -1280,8 +1281,8 @@ AutoSATermNotSupportedPrackCall_EnabledRequirePrackRemoveSDP;PASSED
 AutoSASupportedPrackCall_EnabledRequirePrackRemoveSDP;PASSED
 testAutoSAPrackDisableRequirePrackParm;PASSED
 testAutoSAPrackDisableRemoveSDPFromPrackParm;PASSED
-;
-BVoIP.AutoSASimringHuntingSuite Test Results:;
+
+BVoIP.AutoSASimringHuntingSuite Test Results:
 testSetServiceForUser;PASSED
 testsetPresenceDomainData;PASSED
 testdefinePresenceSystemProfile;PASSED
@@ -1394,8 +1395,8 @@ testremovePresenceDomainData;PASSED
 testremoveSystemProfilesFromDomain;PASSED
 testremovePresenceSystemProfile;PASSED
 testremoveAllServicesFromUser;PASSED
-;
-BVoIP.AutoSAAlphaTaggingForHuntingSuite Test Results:;
+
+BVoIP.AutoSAAlphaTaggingForHuntingSuite Test Results:
 testSetServiceForUser;PASSED
 testsetPresenceDomainData;PASSED
 testdefinePresenceSystemProfile;PASSED
@@ -1508,8 +1509,8 @@ testremovePresenceDomainData;PASSED
 testremoveSystemProfilesFromDomain;PASSED
 testremovePresenceSystemProfile;PASSED
 testremoveAllServicesFromUser;PASSED
-;
-BVoIP.AutoSAAlphaTaggingForUCDSuite Test Results:;
+
+BVoIP.AutoSAAlphaTaggingForUCDSuite Test Results:
 testSetServiceForUser;PASSED
 testaddUCDGroup;PASSED
 testsetAlphaTagsForAlias;PASSED
@@ -1538,11 +1539,11 @@ testremoveDomainsFromPooledRoute;PASSED
 testremoveAdminFromUCDGroup;PASSED
 testremoveUCDGroup;PASSED
 testremoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.InitialSetupTestSuite Test Results:;
+
+Automation.Mixed.InitialSetupTestSuite Test Results:
 testAutoMixedConfigCleaner;PASSED
-;
-Automation.Mixed.GenericCallPTestSuite Test Results:;
+
+Automation.Mixed.GenericCallPTestSuite Test Results:
 AutoSSLtoPSTNBasicCall;PASSED
 AutoPSTNtoSSLCFNABehindSBC;SKIPPED
 AutoPSTNtoSSLBasicCall;PASSED
@@ -1551,8 +1552,8 @@ AutoPSTNtoSSLCFBBehindSBC;SKIPPED
 AutoPSTNtoPSTNtoCFURegisteredSBCSSL;SKIPPED
 AutoSAtoSSLCFB;SKIPPED
 AutoSAtoPSTNthenSAtoSADropActiveCall;SKIPPED
-;
-Automation.Mixed.CallLineIDRestrictionTestSuite Test Results:;
+
+Automation.Mixed.CallLineIDRestrictionTestSuite Test Results:
 testAutoMixedCLIRSetServicesForUser;PASSED
 testAutoMixedCLIRAddSystemProfile;PASSED
 testAutoMixedCLIRAddDomainsForSystemProfile;PASSED
@@ -1577,8 +1578,8 @@ testAutoMixedCLIRRemoveSystemProfileFromUsers;PASSED
 testAutoMixedCLIRRemoveDomainsFromSystemProfile;PASSED
 testAutoMixedCLIRRemoveSystemProfile;PASSED
 testAutoMixedCLIRRemoveServiceFromUsers;PASSED
-;
-Automation.Mixed.CallGrabberTestSuite Test Results:;
+
+Automation.Mixed.CallGrabberTestSuite Test Results:
 testAutoMixedCallGrabberSetServiceForUser;PASSED
 testAutoMixedCallGrabberAddSystemProfile;PASSED
 testAutoMixedCallGrabberAddDomainsForSystemProfile;PASSED
@@ -1591,15 +1592,15 @@ testAutoMixedCallGrabbersRemoveSystemProfileForUser;PASSED
 testAutoMixedCallGrabberRemoveDomainsForSystemProfile;PASSED
 testAutoMixedCallGrabberRemoveSystemProfile;PASSED
 testAutoMixedCallGrabberRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.DirectTransferTesSuite Test Results:;
+
+Automation.Mixed.DirectTransferTesSuite Test Results:
 AutoSAtoSSLDirectTransfer;SKIPPED
 AutoPSTNtoPSTNDirectTransfer;SKIPPED
 AutoSSLtoPSTNDirectTransferTerminator;SKIPPED
 AutoSSLtoPSTNDirectTransferOriginator;SKIPPED
 AutoPSTNtoSSLDirectTransfer;SKIPPED
-;
-Automation.Mixed.CPLRouteTestSuite Test Results:;
+
+Automation.Mixed.CPLRouteTestSuite Test Results:
 testAutoMixedCPLRouteSetServicesForUser;PASSED
 testAutoMixedCPLRouteAddSystemProfile;PASSED
 testAutoMixedCPLRouteSetSystemProfileForDomain;PASSED
@@ -1638,8 +1639,8 @@ testAutoMixedCPLRouteRemoveSystemProfileFromUser;PASSED
 testAutoMixedCPLRouteRemoveSystemProfilesFromDomain;PASSED
 testAutoMixedCPLRouteRemoveSystemProfile;PASSED
 testAutoMixedCPLRouteRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.AdhocConferenceTestSuite Test Results:;
+
+Automation.Mixed.AdhocConferenceTestSuite Test Results:
 testAutoMixedAdhocSVCAssignDomainsForPooledRoute;PASSED
 testAutoMixedAdhocSetServicesForUser;PASSED
 testAutoMixedAdhocAddSystemProfile;PASSED
@@ -1667,8 +1668,8 @@ testAutoMixedAdhocRemoveSystemProfileFromUser;PASSED
 testAutoMixedAdhocRemoveDomainFromSystemProfile;PASSED
 testAutoMixedAdhocRemoveSystemProfile;PASSED
 testAutoMixedAdhocRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.C2CTestSuite Test Results:;
+
+Automation.Mixed.C2CTestSuite Test Results:
 testAutoMixedC2CSetServicesForUser;PASSED
 AutoSSLtoPSTNC2CCallForkedToMyClientAndAnotherPSTNWithDN;SKIPPED
 AutoSSLtoPSTNC2CWithDN;SKIPPED
@@ -1680,8 +1681,8 @@ AutoPSTNtoInvalidSubscriberC2CWithDNSBC;SKIPPED
 AutoSSLtoInvalidSubscriberC2CWithDN;PASSED
 AutoSSLtoInvalidSubscriberC2CWithDNSBC;SKIPPED
 testAutoMixedC2CRemoveServicesFromUsers;PASSED
-;
-Automation.Mixed.AssistantConsoleTestSuite Test Results:;
+
+Automation.Mixed.AssistantConsoleTestSuite Test Results:
 testAutoMixedAssistantConsoleSetServicesForUser;PASSED
 testAutoMixedAssistantConsoleVoicemailAddSystemProfile;PASSED
 testAutoMixedAssistantConsoleVoicemailAssignSystemProfileForDomain;PASSED
@@ -1724,8 +1725,8 @@ testAutoMixedAssistantConsoleRemoveDefaultSslRoute;PASSED
 testAutoMixedAssistantConsoleRemoveSslRoute;PASSED
 testAutoMixedAssistantConsoleRemoveSslAssistant;PASSED
 testAutoMixedAssistantConsoleRemoveServicesFromSSLUser;PASSED
-;
-Automation.Mixed.MOHTestSuite Test Results:;
+
+Automation.Mixed.MOHTestSuite Test Results:
 testAutoMixedMOHSetServicesForUser;PASSED
 AutoPSTNtoSSLMOHHoldAndRetrieveSBC;SKIPPED
 AutoMixedMOHToggleBetweenMultipleCallWithSBC;SKIPPED
@@ -1734,8 +1735,8 @@ AutoPSTNtoSSLMOHBasicHold;SKIPPED
 AutoPSTNtoSSLMOHBasicHoldSBC;SKIPPED
 AutoPSTNtoSSLtoPSTNDirectTransfer;SKIPPED
 testAutoMixedMOHRemoveServiceFromUser;PASSED
-;
-Automation.Mixed.AutoMixedPresenceBasedRouteTestSuite Test Results:;
+
+Automation.Mixed.AutoMixedPresenceBasedRouteTestSuite Test Results:
 testAutoMixedAdvancedScreeningRouteSetServicesForUser;PASSED
 testAutoMixedAdvancedScreeningRouteAddSystemProfile;PASSED
 testAutoMixedAdvancedScreeningRouteSetSystemProfileForDomain;PASSED
@@ -1752,8 +1753,8 @@ testAutoMixedAdvancedScreeningRouteRemoveSystemProfileFromUser;PASSED
 testAutoMixedAdvancedScreeningRouteRemoveSystemProfilesFromDomain;PASSED
 testAutoMixedAdvancedScreeningRouteRemoveSystemProfile;PASSED
 testAutoMixedAdvancedScreeningRouteRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.BrandingTestSuite Test Results:;
+
+Automation.Mixed.BrandingTestSuite Test Results:
 testAutoMixedBrandingAssignPooledRouteForDomain;PASSED
 testAutoMixedBrandingAddFile;PASSED
 testAutoMixedBrandingSetDomainData;PASSED
@@ -1762,8 +1763,8 @@ AutoMixedPSTNToSABrandingCall;SKIPPED
 testAutoMixedBrandingRemoveDomainData;PASSED
 testAutoMixedBrandingRemoveFile;PASSED
 testAutoMixedBrandingRemovePooledRouteForDomain;PASSED
-;
-Automation.Mixed.CallPickUpTestSuite Test Results:;
+
+Automation.Mixed.CallPickUpTestSuite Test Results:
 testAutoMixedCallPickUpSetServiceForUser;PASSED
 testAutoMixedCallPickUpAddSystemProfile;PASSED
 testAutoMixedCallPickUpAddDomainsForSystemProfile;PASSED
@@ -1781,8 +1782,8 @@ testAutoMixedCallPickUpRemoveSystemProfileFromUser;PASSED
 testAutoMixedCallPickUpRemoveDomainsForSystemProfile;PASSED
 testAutoMixedCallPickUpRemoveSystemProfile;PASSED
 testAutoMixedCallPickupRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.UCDTestSuite Test Results:;
+
+Automation.Mixed.UCDTestSuite Test Results:
 testAutoMixedUCDSetServiceForUser;PASSED
 testAutoMixedUCDAddGroup;PASSED
 testAutoMixedUCDSetAdminForGroup;PASSED
@@ -1794,8 +1795,8 @@ AutoMixedSAtoSAUCDRedirection;SKIPPED
 testAutoMixedUCDRemoveAdminFromGroup;PASSED
 testAutoMixedUCDRemoveGroup;PASSED
 testAutoMixedUCDRemoveAllServicesFromUser;PASSED
-;
-Automation.Mixed.VoicemailTestSuite Test Results:;
+
+Automation.Mixed.VoicemailTestSuite Test Results:
 testAutoMixedVoicemailSetServicesForUser;PASSED
 testAutoMixedVoiceMailAddSystemProfile;PASSED
 testAutoMixedVoiceMailAddDomainsForSystemProfile;PASSED
@@ -1856,16 +1857,16 @@ testAutoMixedVoiceMailRemoveSystemProfileFromUser;PASSED
 testAutoMixedVoiceMailRemoveSystemProfilesFromDomain;PASSED
 testAutoMixedVoiceMailRemoveSystemProfile;PASSED
 testAutoMixedVoicemailRemoveServicesFromUser;PASSED
-;
-Automation.Mixed.BlindTransferTestSuite Test Results:;
+
+Automation.Mixed.BlindTransferTestSuite Test Results:
 testAutoMixedBlindTransferNEConfigParamsTrue;PASSED
 AutoMixedBlindTransferIntraSESM;SKIPPED
 AutoMixedBlindTransferIntraSESMTerm;SKIPPED
 AutoMixedBlindTransferInterSESM;SKIPPED
 AutoMixedBlindTransferInterSESMTerm;SKIPPED
 testAutoMixedBlindTransferNEConfigParamsFalse;PASSED
-;
-Automation.Mixed.AllowedClientsTestSuite Test Results:;
+
+Automation.Mixed.AllowedClientsTestSuite Test Results:
 testAutoMixedAllowedClientsSetServicesForUser;PASSED
 testAutoMixedAllowedClientsAddSystemProfile;PASSED
 testAutoMixedAllowedClientsAddDomainsForSystemProfile;PASSED
@@ -1875,8 +1876,8 @@ testAutoMixedAllowedClientsRemoveSystemProfileFromUser;PASSED
 testAutoMixedAllowedClientsRemoveSystemProfile;PASSED
 testAutoMixedAllowedClientsSetSystemProfileForUser;PASSED
 testAutoMixedAllowedClientsRemoveAllServicesFromUser;PASSED
-;
-Automation.SA.DNDVSCTestSuite Test Results:;
+
+Automation.SA.DNDVSCTestSuite Test Results:
 testAutoMixedDNDSetServicesForUser;PASSED
 testAutoMixedTreatmentAssignDomainsToPooledRoute;PASSED
 testAutoMixedTreatmentSetPoolForDomain;PASSED
@@ -1894,35 +1895,35 @@ testAutoMixedTreatmentRemoveLocation;PASSED
 testAutoMixedTreatmentRemovePooledRouteFromDomain;PASSED
 testAutoMixedTreatmentRemoveDomainsFromPooledRoute;PASSED
 testAutoMixedDNDRemoveServiceFromUser;PASSED
-;
-Automation.SA.RemoveSetupForDemoDomainTestSuite Test Results:;
+
+Automation.SA.RemoveSetupForDemoDomainTestSuite Test Results:
 testAutoSARemoveUserForSesm1DemoDomain;PASSED
 testAutoSARemoveAllServicesFromDemoDomain;PASSED
 testAutoSARemoveDemoDomainResources;PASSED
 testAutoSARemoveDemoDomain;PASSED
-;
-Automation.SA.RemoveDomainSetupTestSuite Test Results:;
+
+Automation.SA.RemoveDomainSetupTestSuite Test Results:
 testAutoMOHRemoveMohPoolLocations;PASSED
 testAutoMOHRemoveMusicOnHoldDomainPool;PASSED
 testAutoMOHRemoveMusicOnHoldFolder;PASSED
 testAutoMOHSVCRemoveDomainFromPooledRoute;PASSED
 testAutoRemoveDomain;PASSED
-;
-Automation.SSL.RemoveDomainSetupTestSuite Test Results:;
+
+Automation.SSL.RemoveDomainSetupTestSuite Test Results:
 testAutoSSLMOHRemoveMohPoolLocations;PASSED
 testAutoSSLMOHRemoveMusicOnHoldDomainPool;PASSED
 testAutoSSLMOHRemoveMusicOnHoldFolder;PASSED
 testAutoSSLMOHSVCRemoveDomainFromPooledRoute;PASSED
-;
-JITC.PrepareLab Test Results:;
+
+JITC.PrepareLab Test Results:
 testJITCDomainAddDomain;PASSED
 testJITCDomainAssignSESMsystemProfileToDomain;PASSED
 testJITCTAFAutomationAssignServicesForDomain;PASSED
 testJITCDomainAssignResources;PASSED
 testJITCMLPPCreateSeviceSet;PASSED
 testJITCMLPPAssignResourcesToDomain;PASSED
-;
-suites.a2_10_3.JITC.Suite.MLPPDataFillTestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.MLPPDataFillTestSuite Test Results:
 testJITCMLPPAddMLPPNamespace;PASSED
 testJITCMLPPAddMLPPProfile;PASSED
 testJITCMLPPAddMLPPProfilesParameterizedFLASH;PASSED
@@ -1978,13 +1979,13 @@ testJITCAddNonJITCUsersParametrized: nonjitcuser2;PASSED
 testJITCSetDNForUsersParametrized: 2165220004;PASSED
 testJITCAssignSystemProfileToNonJITCUsersParametrized: nonjitcuser2;PASSED
 testJITCAssignSystemProfileToNonJITCUsersParametrized: nonjitcuser1;PASSED
-;
-suites.a2_10_3.JITC.Suite.PrepareCCAFeatureXLATestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.PrepareCCAFeatureXLATestSuite Test Results:
 testJITCCCAAddCCAFeatureXLAParameterized: 10digit_local1;PASSED
 testJITCCCAAddCCAFeatureXLAParameterized: long_distance1;PASSED
 testJITCCCAAddCCAFeatureXLAParameterized: international1;PASSED
-;
-suites.a2_10_3.JITC.Suite.PrepareTreatmentTestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.PrepareTreatmentTestSuite Test Results:
 testJITCTreatmentAssignDomainsToPooledRoute;PASSED
 testJITCTreatmentSetLogicalEntityForDomain;PASSED
 testJITCTreatmentSetTreatmentPoolForDomain;PASSED
@@ -1993,8 +1994,8 @@ testJITCTreatmentAddFilesParameterized: FILE_MLPP_UPA;PASSED
 testJITCTreatmentAddFilesParameterized: FILE_MLPP_BPA;PASSED
 testJITCTreatmentAddGroupParameterized: mlpp_upa;PASSED
 testJITCTreatmentAddGroupParameterized: mlpp_bpa;PASSED
-;
-suites.a2_10_3.JITC.Suite.CallPTestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.CallPTestSuite Test Results:
 MLPPBasicCallTestRoutine;PASSED
 MLPPBasicCallTestImmediate;PASSED
 MLPPBasicCallTestPriority;PASSED
@@ -2094,84 +2095,84 @@ JITCCallPDiversionBasicCallParameterizedPriority;PASSED
 JITCCallPDiversionBasicCallParameterizedImmediate;PASSED
 JITCCallPDiversionBasicCallParameterizedFlash;PASSED
 JITCCallPDiversionBasicCallParameterizedFlashoverride;PASSED
-;
-;
-JITC.JITCMohNewSuite Test Results:;
-;
+
+
+JITC.JITCMohNewSuite Test Results:
+
 testJITCMOHAssignDomainsToServiceNodes;PASSED
-;
+
 testJITCMOHAssignLogicalEntityToDomain;PASSED
-;
+
 testJITCMOHAddMusicFolder;PASSED
-;
+
 testJITCMOHAssignMusicFolderToDomain;PASSED
-;
+
 testJITCMOHAssignPoolLocation;PASSED
-;
+
 MLPPMohHoldRetrieve;PASSED
 MLPPMohHoldingPartyPreemption;PASSED
-;
+
 MLPPMohHeldPartyPreemption;PASSED
-;
+
 MLPPMohHoldingPartyNonPreemption;PASSED
-;
+
 MLPPMohHeldPartyNonPreemption;PASSED
-;
+
 testJITCMOHRemoveMusicFolderFromDomain;PASSED
-;
+
 testJITCMOHRemoveMusicFolder;PASSED
-;
+
 testJITCMOHRemovePoolLocation;PASSED
-;
+
 testJITCMOHRemoveLogicalEntityFromDomain;PASSED
-;
+
 testJITCMOHRemoveDomainsFromServiceNodes;PASSED
-;
-;
-;
-JITC.JITCCfwdNewSuite Test Results:;
-;
+
+
+
+JITC.JITCCfwdNewSuite Test Results:
+
 testJITCCFVSetServiceForUsers;PASSED
-;
+
 testJITCCFVAddCFVSystemProfile;PASSED
-;
+
 testJITCCFVAssignDomainToCFVSystemProfile;PASSED
-;
+
 testJITCCFVSetSystemProfileForUsers;PASSED
-;
+
 testJITCCFVSetRouteUnconditionalForUser:2165220001;PASSED
-;
+
 JITCCallPCallForwardingUnconditional;PASSED
-;
+
 testJITCCFVRemoveRouteUnconditionalFromUser:2165220001;PASSED
-;
+
 testJITCCFVSetRouteBusyForUser:2165220001;PASSED
-;
+
 testJITCCFVSetRouteNoAnswerForUser:2165220001;PASSED
-;
+
 testJITCCFVRemoveSystemProfileFromUsers;PASSED
-;
+
 testJITCCFVRemoveDomainFromSystemProfile;PASSED
-;
+
 testJITCCFVRemoveCFVSystemProfile;PASSE
-D;
+D
 testJITCCFVRemoveCFVServiceFromUsers:2165220000@dsn2.mil;PASSED
 testJITCCFVRemoveCFVServiceFromUsers:2165220001@dsn2.mil;PASSED
 testJITCCFVRemoveCFVServiceFromUsers:2165229090@dsn2.mil;PASSED
-;
-JITC.CleanTreatment Test Results:;
+
+JITC.CleanTreatment Test Results:
 testJITCTreatmentRemoveTreatmentLocationFromDomain;PASSED
 testJITCTreatmentRemoveTreatmentPoolFromDomain;PASSED
 testJITCTreatmentRemoveDomainsFromPooledRoute;PASSED
 testJITCTreatmentRemoveAssignedServiceNode;PASSED
-;
-suites.a2_10_3.JITC.Suite.CleanCCAFeatureXLATestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.CleanCCAFeatureXLATestSuite Test Results:
 testJITCCCARemoveCCAFeatureXLAParameterized: 7digit_local1;PASSED
 testJITCCCARemoveCCAFeatureXLAParameterized: 10digit_local1;PASSED
 testJITCCCARemoveCCAFeatureXLAParameterized: long_distance1;PASSED
 testJITCCCARemoveCCAFeatureXLAParameterized: international1;PASSED
-;
-suites.a2_10_3.JITC.Suite.CleanLabTestSuite Test Results:;
+
+suites.a2_10_3.JITC.Suite.CleanLabTestSuite Test Results:
 testJITCDomainRemoveDomain;PASSED
 testJITCMLPPRemoveMLPPProfile;PASSED
 testJITCMLPPRemoveMLPPProfileParameterized: FLASH;PASSED
@@ -2180,8 +2181,8 @@ testJITCMLPPRemoveMLPPProfileParameterized: FLASH-OVERRIDE;PASSED
 testJITCMLPPRemoveMLPPProfileParameterized: PRIORITY;PASSED
 testJITCMLPPRemoveMLPPProfileParameterized: ROUTINE;PASSED
 testJITCMLPPRemoveMLPPNamespace;PASSED
-;
-TAFSP.InitialSetupTestSuite Test Results:;
+
+TAFSP.InitialSetupTestSuite Test Results:
 testTAFConfigCleaner;PASSED
 testTAFAddRootDomain;PASSED
 testTAFSetDomainHomeCountries;PASSED
@@ -2194,19 +2195,19 @@ testTAFAddUsersForSesm2DomainA;PASSED
 testTAFAddUsersForSesm1DomainB;PASSED
 testTAFAddUsersForSesm2DomainB;PASSED
 testTAFSSLLogoutAllContacts;PASSED
-;
-TAFSP.InitialDomainSetupTestSuite Test Results:;
+
+TAFSP.InitialDomainSetupTestSuite Test Results:
 testTAFMOHSVCAssignDomainsToPooledRoute;PASSED
 testTAFMOHAddMusicOnHoldFolder;PASSED
 testTAFMOHSetMusicOnHoldDomainPool;PASSED
 testTAFMOHSetMohPoolLocations;PASSED
-;
-TAFSP.SA.GenericCallPTestSuite Test Results:;
+
+TAFSP.SA.GenericCallPTestSuite Test Results:
 TAFBasicCall;PASSED
 TAFSACallForkingMultipleClients;SKIPPED
 TAFBasicHold;PASSED
-;
-TAFSP.SA.SLATestSuite Test Results:;
+
+TAFSP.SA.SLATestSuite Test Results:
 testTAFSLASetServicesForUser;PASSED
 testTAFSLASetSlaData;PASSED
 TAFSLACallMCAType;PASSED
@@ -2243,13 +2244,13 @@ testTAFSLAAdhocRemoveSystemProfile;PASSED
 testTAFSLAAdhocRemovePool;PASSED
 testTAFSLAAdhocSVCRemoveDomainFromPooledRoute;PASSED
 testTAFSLARemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.SmsOnCallForwardTestSuite Test Results:;
+
+TAFSP.SA.SmsOnCallForwardTestSuite Test Results:
 testTAFSmsOnCallFwdSetServiceForUser;PASSED
 TAFSASmsOnCallForwardClientIsUnregistered;PASSED
 testTAFSmsOnCallFwdRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.CallParkVSCTestSuite Test Results:;
+
+TAFSP.SA.CallParkVSCTestSuite Test Results:
 testTAFCallParkSetServicesForUser;PASSED
 testTAFCallParkAddSystemProfile;PASSED
 testTAFCallParkAddDomainsForSystemProfile;PASSED
@@ -2292,8 +2293,8 @@ testTAFCallParkRemoveSystemProfileFromUser;PASSED
 testTAFCallParkRemoveDomainFromSystemProfile;PASSED
 testTAFCallParkRemoveSystemProfile;PASSED
 testTAFCallParkRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.UCDTestSuite Test Results:;
+
+TAFSP.SA.UCDTestSuite Test Results:
 testTAFUCDAssignDomainsToThreatmentPooledRoot;PASSED
 testTAFUCDSetThreatmentPoolForDomain;PASSED
 testTAFUCDSetThreatmentPoolLocations;PASSED
@@ -2347,8 +2348,8 @@ testTAFUCDSetUCDGroupRouteAgentStatusInActive;PASSED
 testTAFUCDSetUCDGroupRouteQueueStatusClose;PASSED
 testTAFUCDRemoveGroupRoute;PASSED
 testTAFUCDRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.IntercomTestSuite Test Results:;
+
+TAFSP.SA.IntercomTestSuite Test Results:
 testTAFIntercomSetServiceForUser;PASSED
 testTAFIntercomAddSystemProfile;PASSED
 testTAFIntercomSetTerminationDomainData;PASSED
@@ -2390,8 +2391,8 @@ testTAFShortDialingCodeRemoveFeatureXLA;PASSED
 testTAFIntercomRemoveTerminationDomainData;PASSED
 testTAFIntercomRemoveSystemProfile;PASSED
 testTAFIntercomRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.ConsultativeXferTestSuite Test Results:;
+
+TAFSP.SA.ConsultativeXferTestSuite Test Results:
 testTAFAdhocSetServicesForUser;PASSED
 testTAFAdhocAddSystemProfile;PASSED
 testTAFAdhocAssignSystemProfileToDomain;PASSED
@@ -2406,8 +2407,8 @@ testTAFAdhocRemoveSystemProfileFromUser;PASSED
 testTAFAdhocRemoveDomainFromSystemProfile;PASSED
 testTAFAdhocRemoveSystemProfile;PASSED
 testTAFAdhocRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SA.MOHTestSuite Test Results:;
+
+TAFSP.SA.MOHTestSuite Test Results:
 testTAFMOHBlindTransferChangeNEConfigParmsTrue;PASSED
 testTAFMOHSetServicesForUser;PASSED
 TAFMOHPartyPlacedInterSesmInitiateOrig;SKIPPED
@@ -2422,8 +2423,8 @@ TAFMOHPartyPlacedAfterBlindTransferFromOrig;PASSED
 TAFMOHPartyPlacedAfterBlindTransferFromTerm;PASSED
 testTAFMOHRemoveServicesFromUser;PASSED
 testTAFMOHBlindTransferChangeNEConfigParmsFalse;PASSED
-;
-TAFSP.SA.AccntCodesTestSuite Test Results:;
+
+TAFSP.SA.AccntCodesTestSuite Test Results:
 testAccntCodesSetupNEConfigParams;PASSED
 testAccntCodesAddSystemProfile;PASSED
 testAccntCodesAddDomainsToSystemProfile;PASSED
@@ -2443,8 +2444,8 @@ testAccntCodesRemoveDomainsFromSystemProfile;PASSED
 testAccntCodesRemoveSystemProfile;PASSED
 testAccntCodesRemoveAllServicesFromUser;PASSED
 testAccntCodesRemoveNEConfigParams;PASSED
-;
-TAFSP.RFC3264CompliancyTestSuite Test Results:;
+
+TAFSP.RFC3264CompliancyTestSuite Test Results:
 testTAFRFC3264CompliancyHoldRetrieveAddSipProfile;PASSED
 TAFRFC3264CompliancyHoldRetrieve;PASSED
 testTAFRFC3264CompliancyHoldRetrieveRemoveSipProfile;PASSED
@@ -2464,8 +2465,8 @@ testTAFRFC3264CompliancyEnableRemoveSipProfileForPolyPhone;PASSED
 testTAFRFC3264CompliancyDisableSipProfileForPolyPhone;PASSED
 TAFRFC3264CompliancyDisableHoldRetrieveForPolyPhone;PASSED
 testTAFRFC3264CompliancyDisableRemoveSipProfileForPolyPhone;PASSED
-;
-TAFSP.SA.MeetMeTestSuite Test Results:;
+
+TAFSP.SA.MeetMeTestSuite Test Results:
 testTAFMeetMeSetServicesForUser;PASSED
 testTAFMeetMeAddSystemProfile;PASSED
 testTAFMeetMeAddDomainsForSystemProfile;PASSED
@@ -2515,11 +2516,11 @@ testTAFMeetMeRemoveSystemProfileFromUser;PASSED
 testTAFMeetMeRemoveDomainFromSystemProfile;PASSED
 testTAFMeetMeRemoveSystemProfile;PASSED
 testTAFMeetMeRemoveAllServicesFromDomain;PASSED
-;
-TAFSP.SSL.InitialDomainSetupTestSuite Test Results:;
+
+TAFSP.SSL.InitialDomainSetupTestSuite Test Results:
 testTAFRemoveAllServicesFromSSLUsers;PASSED
-;
-TAFSP.SSL.AdhocTestSuite Test Results:;
+
+TAFSP.SSL.AdhocTestSuite Test Results:
 testTAFSSLAdhocSetServicesForUser;PASSED
 testTAFSSLAdhocAddSystemProfile;PASSED
 testTAFSSLAdhocAssignSystemProfileToDomain;PASSED
@@ -2537,8 +2538,8 @@ testTAFSSLAdhocRemoveSystemProfileFromUser;PASSED
 testTAFSSLAdhocRemoveDomainFromSystemProfile;PASSED
 testTAFSSLAdhocRemoveSystemProfile;PASSED
 testTAFSSLAdhocRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SSL.InstantMessagingTestSuite Test Results:;
+
+TAFSP.SSL.InstantMessagingTestSuite Test Results:
 testTAFSSLInstantMessagingSetServicesForUser;PASSED
 testTAFSSLInstantMessagingAddSystemProfile;PASSED
 testTAFSSLInstantMessagingAddDomainsForSystemProfile;PASSED
@@ -2548,8 +2549,8 @@ testTAFSSLInstantMessagingRemoveSystemProfileFromUser;PASSED
 testTAFSSLInstantMessagingRemoveSystemProfilesFromDomain;PASSED
 testTAFSSLInstantMessagingRemoveSystemProfile;PASSED
 testTAFSSLInstantMessagingRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SSL.CallParkTestSuite Test Results:;
+
+TAFSP.SSL.CallParkTestSuite Test Results:
 testTAFSSLCallParkSetupNEConfigParams;PASSED
 testTAFSSLCallParkSetServicesForUser;PASSED
 testTAFSSLSetUserAlias;PASSED
@@ -2576,11 +2577,11 @@ testTAFSSLCallParkRemoveDomainFromSystemProfile;PASSED
 testTAFSSLCallParkRemoveSystemProfile;PASSED
 testTAFSSLCallParkRemoveServicesFromUser;PASSED
 testTAFSSLCallParkRemoveNEConfigParams;PASSED
-;
-TAFSP.SSL.SubDomainTestSuite Test Results:;
+
+TAFSP.SSL.SubDomainTestSuite Test Results:
 TAFSSLSubdomainBasicCall;PASSED
-;
-TAFSP.SSL.IMCHATTestSuite Test Results:;
+
+TAFSP.SSL.IMCHATTestSuite Test Results:
 testTAFSSLIMCHATSetServicesForUser;PASSED
 testTAFSSLIMCHATSVCAssignDomainsToPooledRoute;PASSED
 testTAFSSLIMCHATSetDomainPool;PASSED
@@ -2594,8 +2595,8 @@ testTAFSSLIMCHATRemoveSystemProfile;PASSED
 testTAFSSLIMCHATRemoveDomainPool;PASSED
 testTAFSSLIMCHATSVCRemoveDomainFromPooledRoute;PASSED
 testTAFSSLIMCHATRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SSL.CPLTestSuite Test Results:;
+
+TAFSP.SSL.CPLTestSuite Test Results:
 testTAFSSLCPLRouteSetServicesForUser;PASSED
 testTAFSSLCPLRouteAddSystemProfile;PASSED
 testTAFSSLCPLRouteSetSystemProfileForDomain;PASSED
@@ -2650,18 +2651,18 @@ testTAFSSLCPLRouteRemoveSystemProfileFromUser;PASSED
 testTAFSSLCPLRouteRemoveSystemProfilesFromDomain;PASSED
 testTAFSSLCPLRouteRemoveSystemProfile;PASSED
 testTAFSSLCPLRouteRemoveAllServicesFromUser;PASSED
-;
-TAFSP.SSL.LongCallTestSuite Test Results:;
+
+TAFSP.SSL.LongCallTestSuite Test Results:
 testTAFSSLLongCallDurationConfigurationParams;PASSED
 TAFSSLLongCall;PASSED
-;
-TAFSP.SSL.DNDTestSuite Test Results:;
+
+TAFSP.SSL.DNDTestSuite Test Results:
 testTAFSSLDNDSetServiceForUser;PASSED
 TAFSSLDoNotDisturbSesmBased;SKIPPED
 testTAFSSLRemoveDNDRoute;PASSED
 testTAFSSLDNDRemoveAllServicesFromUser;PASSED
-;
-TAFSP.TAFSSLMOHTestSuite Test Results:;
+
+TAFSP.TAFSSLMOHTestSuite Test Results:
 testTAFSSLMOHSetServicesForUser;PASSED
 TAFSSLMOHPartyPlacedAfterBlindTransferFromTerm;SKIPPED
 TAFSSLMOHDualCallHoldInitiateSesm2;SKIPPED
@@ -2670,8 +2671,8 @@ TAFSSLMOHPartyPlacedInterSesm;SKIPPED
 TAFSSLMOHDualCallHoldInitiateSesm1;SKIPPED
 TAFSSLMOHPartyPlacedAfterBlindTransferFromOrig;SKIPPED
 testTAFSSLMOHRemoveServicesFromUser;PASSED
-;
-TAFSP.SSL.BlindTransferTestSuite Test Results:;
+
+TAFSP.SSL.BlindTransferTestSuite Test Results:
 testTAFSSLBlindTransferChangeNEConfigParmsTrue;PASSED
 testTAFSSLBlindTransferAdhocSetServicesForUser;PASSED
 testTAFSSLBlindTransferAdhocAddSystemProfile;PASSED
@@ -2692,8 +2693,8 @@ testTAFSSLBlindTransferAdhocRemoveDomainsFromSystemProfile;PASSED
 testTAFSSLBlindTransferAdhocRemoveSystemProfile;PASSED
 testTAFSSLBlindTransferRemoveAllServicesFromUser;PASSED
 testTAFSSLBlindTransferChangeNEConfigParmsFalse;PASSED
-;
-TAFSP.SSL.MeetMeTestSuite Test Results:;
+
+TAFSP.SSL.MeetMeTestSuite Test Results:
 testTAFSSLMeetMeSetServicesForUser;PASSED
 testTAFSSLMeetMeAddSystemProfile;PASSED
 testTAFSSLMeetMeAddDomainsForSystemProfile;PASSED
@@ -2716,17 +2717,17 @@ testTAFSSLMeetMeRemoveSystemProfileFromUser;PASSED
 testTAFSSLMeetMeRemoveDomainFromSystemProfile;PASSED
 testTAFSSLMeetMeRemoveSystemProfile;PASSED
 testTAFSSLMeetMeRemoveAllServicesFromDomain;PASSED
-;
-TAFSP.RemoveDomainSetupTestSuite Test Results:;
+
+TAFSP.RemoveDomainSetupTestSuite Test Results:
 testTAFMOHRemoveMohPoolLocations;PASSED
 testTAFMOHRemoveMusicOnHoldDomainPool;PASSED
 testTAFMOHRemoveMusicOnHoldFolder;PASSED
 testTAFMOHSVCRemoveDomainFromPooledRoute;PASSED
-;
-TAFSP.RemoveSetupTestSuite Test Results:;
+
+TAFSP.RemoveSetupTestSuite Test Results:
 testTAFRemoveDomain;PASSED
-;
-DSSanity.SA.InitialSetupTestSuite Test Results:;
+
+DSSanity.SA.InitialSetupTestSuite Test Results:
 testDSSanityConfigCleaner;PASSED
 testDSSanityAddRootDomain;PASSED
 testDSSanityAssignSesmProfile;PASSED
@@ -2736,22 +2737,22 @@ testDSSanityAddUserForSesm1DomainA;PASSED
 testDSSanityAddUserForSesm1DomainB;PASSED
 testDSSanityAddUserForSesm2DomainA;PASSED
 testDSSanityAddUserForSesm2DomainB;PASSED
-;
-DSSanity.SA.DNDCallForkingTestSuite Test Results:;
+
+DSSanity.SA.DNDCallForkingTestSuite Test Results:
 IntraDomainDNDMultipleClients;PASSED
 InterDomainDNDMultipleClients;PASSED
 InterSesmDNDMultipleClients;PASSED
-;
-DSSanity.SA.DoNotDisturbTestSuite Test Results:;
+
+DSSanity.SA.DoNotDisturbTestSuite Test Results:
 testDoNotDisturbUserSetup;PASSED
 DoNotDisturb;PASSED
 testDoNotDisturbRemoveUserSetup;PASSED
-;
-DSSanity.SA.LongCallTestSuite Test Results:;
+
+DSSanity.SA.LongCallTestSuite Test Results:
 testDSSanityChangeNEConfigParmsLongCall;PASSED
 LongCallDuration;PASSED
-;
-DSSanity.SA.PresenceTestSuite Test Results:;
+
+DSSanity.SA.PresenceTestSuite Test Results:
 testPresenceSetServicesForUser;PASSED
 testPresenceAddSystemProfile;PASSED
 testPresenceAddDomainsForSystemProfile;PASSED
@@ -2767,8 +2768,8 @@ testPresenceRemoveSystemProfileFromUser;PASSED
 testPresenceRemoveSystemProfilesFromDomain;PASSED
 testPresenceRemoveSystemProfile;PASSED
 testPresenceRemoveAllServicesFromUser;PASSED
-;
-DSSanity.SA.MOHTestSuite Test Results:;
+
+DSSanity.SA.MOHTestSuite Test Results:
 testMOHSetServicesForUser;PASSED
 testMOHSVCAssignDomainsToPooledRoute;PASSED
 testMOHAddMusicOnHoldFolder;PASSED
@@ -2780,8 +2781,8 @@ testMOHRemoveMusicOnHoldDomainPool;PASSED
 testMOHRemoveMusicOnHoldFolder;PASSED
 testMOHSVCRemoveDomainFromPooledRoute;PASSED
 testMOHRemoveAllServicesFromUser;PASSED
-;
-DSSanity.SA.CPLTestSuite Test Results:;
+
+DSSanity.SA.CPLTestSuite Test Results:
 testCPLSetServicesForUser;PASSED
 testAdvScrDefineSystemProfile;PASSED
 testAdvScrAssignSystemProfilesToDomain;PASSED
@@ -2873,8 +2874,8 @@ testAdvScrRemoveSystemProfileFromUser;PASSED
 testAdvScrRemoveSystemProfilesFromDomain;PASSED
 testAdvScrRemoveSystemProfile;PASSED
 testAdvScrRemoveAllServicesFromUser;PASSED
-;
-DSSanity.SA.ConsultativeXferTestSuite Test Results:;
+
+DSSanity.SA.ConsultativeXferTestSuite Test Results:
 testConsultativeXferAdhocSetServicesForUser;PASSED
 testConsultativeXferDefineAdhocConfSystemProfile;PASSED
 testConsultativeXferAssignAdhocConfSystemProfileToDomain;PASSED
@@ -2890,8 +2891,8 @@ testConsultativeXferRemoveSystemProfileFromUser;PASSED
 testConsultativeXferRemoveDomainFromSystemProfile;PASSED
 testConsultativeXferRemoveSystemProfile;PASSED
 testConsultativeXferRemoveAllServicesFromUser;PASSED
-;
-DSSanity.SA.BlindTransferTestSuite Test Results:;
+
+DSSanity.SA.BlindTransferTestSuite Test Results:
 testBlindTransferChangeNEConfigParmsTrue;PASSED
 testBlindTransferAdhocSetServicesForUser;PASSED
 testBlindTransferAdhocAddSystemProfile;PASSED
@@ -2911,8 +2912,8 @@ testBlindTransferAdhocRemoveDomainFromSystemProfile;PASSED
 testBlindTransferAdhocRemoveSystemProfile;PASSED
 testBlindTransferRemoveAllServicesFromUser;PASSED
 testBlindTransferChangeNEConfigParmsFalse;PASSED
-;
-DSSanity.SA.AdHocConfTestSuite Test Results:;
+
+DSSanity.SA.AdHocConfTestSuite Test Results:
 testAdHocChangeNEConfigParmsTrue;PASSED
 testAdhocSetServicesForUser;PASSED
 testAddAdhocConfSystemProfile;PASSED
@@ -2930,8 +2931,8 @@ testRemoveDomainFromSystemProfile;FAILED
 testRemoveAdhocConfSystemProfile;FAILED
 testAdHocConfRemoveAllServicesFromUser;PASSED
 testAdHocChangeNEConfigParmsFalse;PASSED
-;
-DSSanity.SA.CallParkTestSuite Test Results:;
+
+DSSanity.SA.CallParkTestSuite Test Results:
 testCallParkChangeNEConfigParmsTrue;PASSED
 testCallParkSetServicesForUser;PASSED
 testCallParkAddSystemProfile;PASSED
@@ -2980,8 +2981,8 @@ testCallParkRemoveDomainFromSystemProfile;PASSED
 testCallParkRemoveSystemProfile;PASSED
 testCallParkRemoveAllServicesFromUser;PASSED
 testCallParkChangeNEConfigParmsFalse;PASSED
-;
-DSSanity.SA.RemoveSetupTestSuite Test Results:;
+
+DSSanity.SA.RemoveSetupTestSuite Test Results:
 testDSSanityRemoveUserFromSesm1DomainA;PASSED
 testDSSanityRemoveUserFromSesm1DomainB;PASSED
 testDSSanityRemoveUserFromSesm2DomainA;PASSED
@@ -2989,13 +2990,13 @@ testDSSanityRemoveUserFromSesm2DomainB;PASSED
 testDSSanityRemoveDomainResources;PASSED
 testDSSanityRemoveAllServicesFromDomain;PASSED
 testDSSanityRemoveDomains;PASSED
-;
-SMSonCallFWD.InitialSetupTestSuite Test Results:;
+
+SMSonCallFWD.InitialSetupTestSuite Test Results:
 testSMSonCallFWDConfigCleaner;PASSED
 testSMSonCallFWDAddDomainAdminService;PASSED
 testSMSonCallFWDAddMultipleUsersWithServiceSet;PASSED
-;
-SMSonCallFWD.SMSonCallFWDTestSuite Test Results:;
+
+SMSonCallFWD.SMSonCallFWDTestSuite Test Results:
 testSMSonCallFWDBlindTransferChangeNEConfigParmsFalse;PASSED
 testSMSonCallFWDAdhocSetServicesForUser;PASSED
 testSMSonCallFWDAdhocAddSystemProfile;PASSED
@@ -3021,12 +3022,12 @@ testSMSonCallFWDAdhocRemoveSystemProfileFromUser;PASSED
 testSMSonCallFWDAdhocRemoveDomainFromSystemProfile;PASSED
 testSMSonCallFWDAdhocRemoveSystemProfile;PASSED
 testSMSonCallFWDAdhocRemoveAllServicesFromUser;PASSED
-;
-SMSonCallFWD.RemoveSetupTestSuite Test Results:;
+
+SMSonCallFWD.RemoveSetupTestSuite Test Results:
 testSMSonCallFWDRemoveMultipleUser;PASSED
 testSMSonCallFWDRemoveDomainAdminService;PASSED
-;
-SV.SA.InitialSetupTestSuite Test Results:;
+
+SV.SA.InitialSetupTestSuite Test Results:
 testSVSAConfigCleaner;PASSED
 testSVAddRootDomain;PASSED
 testSVSASetDomainHomeCountries;PASSED
@@ -3038,12 +3039,12 @@ testSVSAAddUsersForSesm1DomainA;PASSED
 testSVSAAddUsersForSesm2DomainA;PASSED
 testSVSAAddUsersForSesm1DomainB;PASSED
 testSVSAAddUsersForSesm2DomainB;PASSED
-;
-SV.SA.GenericCallPTestSuite Test Results:;
+
+SV.SA.GenericCallPTestSuite Test Results:
 SVSABasicCall;PASSED
 SVSACallRedirection;PASSED
-;
-SV.SA.LNRTestSuite Test Results:;
+
+SV.SA.LNRTestSuite Test Results:
 testSVSALNRAddVSC;PASSED
 testSVSALNRAddEraseVSC;PASSED
 testSVSATreatmentAssignDomainsToPooledRoute;PASSED
@@ -3067,8 +3068,8 @@ testSVSATreatmentRemoveDomainsFromPooledRoute;PASSED
 testSVSALNRRemoveVSC;PASSED
 testSVSALNRRemoveEraseVSC;PASSED
 testSVSALNRRemoveServiceFromUser;PASSED
-;
-SV.SA.HuntingTestSuite Test Results:;
+
+SV.SA.HuntingTestSuite Test Results:
 testSVSAHuntingSetServicesForUser;PASSED
 testSVSAHuntingSetPresenceDomainData;PASSED
 testSVSAHuntingPresenceAddSystemProfile;PASSED
@@ -3096,8 +3097,8 @@ testSVSAHuntingPresenceRemoveSystemProfileFromUser;PASSED
 testSVSAHuntingPresenceRemoveSystemProfilesFromDomain;PASSED
 testSVSAHuntingPresenceRemoveSystemProfile;PASSED
 testSVSAHuntingRemovePresenceDomainData;PASSED
-;
-SV.SA.CallParkTransferTestSuite Test Results:;
+
+SV.SA.CallParkTransferTestSuite Test Results:
 testSVSACallParkSetServiceForUser;PASSED
 testSVSACallParkAddSystemProfile;PASSED
 testSVSACallParkAddSystemProfileForDomain;PASSED
@@ -3110,16 +3111,16 @@ testSVSACallParkRemoveSystemProfileFromUser;PASSED
 testSVSACallParkRemoveSystemProfileFromDomain;PASSED
 testSVSACallParkRemoveSystemProfile;PASSED
 testSVSACallParkRemoveServiceFromUser;PASSED
-;
-SV.SA.ConsultTransferTestSuite Test Results:;
+
+SV.SA.ConsultTransferTestSuite Test Results:
 testSVSAConsultTransferSetServicesForUser;PASSED
 SVSAConsultTransfer;SKIPPED
 testSVSAConsultTransferRemoveServiceFromUser;PASSED
-;
-SV.SA.BlindTransferTestSuite Test Results:;
+
+SV.SA.BlindTransferTestSuite Test Results:
 SVSABlindTransfer;PASSED
-;
-SV.SA.AdhocTestSuite Test Results:;
+
+SV.SA.AdhocTestSuite Test Results:
 testSVSAAdhocSVCAssignDomainsToPooledRoute;PASSED
 testSVSAAdhocSetPoolLocations;PASSED
 testSVSAAdhocSetServicesForUser;PASSED
@@ -3134,8 +3135,8 @@ testSVSAAdhocRemoveSystemProfile;PASSED
 testSVSAAdhocRemoveAllServicesForUser;PASSED
 testSVSAAdhocRemovePoolLocations;PASSED
 testSVSAAdhocSVCRemoveDomainsToPooledRoute;PASSED
-;
-SV.SA.CallCrabOnDualOnHoldTestSuite Test Results:;
+
+SV.SA.CallCrabOnDualOnHoldTestSuite Test Results:
 testSVSACallGrabOnDualHoldSetServiceForUser;PASSED
 testSVSACallGrabOnDualHoldAddSystemProfile;PASSED
 testSVSACallGrabOnDualHoldAddDomainsForSystemProfile;PASSED
@@ -3147,8 +3148,8 @@ testSVSACallGrabOnDualHoldRemoveSystemProfileFromUser;PASSED
 testSVSACallGrabOnDualHoldRemoveDomainsforSystemProfile;PASSED
 testSVSACallGrabOnDualHoldRemoveSystemProfile;PASSED
 testSVSACallGrabOnDualHoldRemoveService;PASSED
-;
-SV.SA.AccountCodeTestSuite Test Results:;
+
+SV.SA.AccountCodeTestSuite Test Results:
 testSVSAAccCodesSetServiceForUser;PASSED
 testSVSAAccntCodesAddSystemProfile;PASSED
 testSVSAAccntCodesAddDomainsToSystemProfile;PASSED
@@ -3166,11 +3167,11 @@ testSVSAAccntCodesRemoveSystemProfileFromUser;PASSED
 testSVSAAccntCodesRemoveDomainsFromSystemProfile;PASSED
 testSVSAAccntCodesRemoveSystemProfile;PASSED
 testSVSAAccCodesRemoveServiceFromUser;PASSED
-;
-SV.SA.RemoveSetupTestSuite Test Results:;
+
+SV.SA.RemoveSetupTestSuite Test Results:
 testSVSARemoveDomain;PASSED
-;
-Automation.SA.InitialSetupTestSuite Test Results:;
+
+Automation.SA.InitialSetupTestSuite Test Results:
 testAutoSAConfigCleaner;PASSED
 testAutoSASetFalseHandleReferParms;PASSED
 testAutoAddRootDomain;PASSED
@@ -3183,8 +3184,8 @@ testAutoAddUsersForSesm1DomainA;PASSED
 testAutoAddUsersForSesm2DomainA;PASSED
 testAutoAddUsersForSesm1DomainB;PASSED
 testAutoAddUsersForSesm2DomainB;PASSED
-;
-Automation.SA.InitialSetupForDemoDomainTestSuite Test Results:;
+
+Automation.SA.InitialSetupForDemoDomainTestSuite Test Results:
 testAutoSAAddDemoDomain;PASSED
 testAutoSASetDemoDomainHomeCountries;PASSED
 testAutoSASetDemoDomainHomeLanguages;PASSED
@@ -3192,616 +3193,616 @@ testAutoSAAssignSesmSystemProfileForDemoDomain;PASSED
 testAutoSAAssignServicesForDemoDomain;PASSED
 testAutoSAAssignResourcesForDemoDomain;PASSED
 testAutoSAAddUsersForSesm1DemoDomain;PASSED
-;
-;
-Automation.SA.AddressBookNewSuite Test Results:;
-;
+
+
+Automation.SA.AddressBookNewSuite Test Results:
+
 testSetServiceForUsers;PASSED
-;
+
 testDefineSystemProfile;PASSED
-;
+
 testAddDomainsForSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testSetPresenceDomainData;PASSED
-;
+
 testAddAddressBookEntry;PASSED
-;
+
 testGetandCheckAddressBookEntry;PASSED
-;
+
 testAddDomainsForSystemProfileForMovedDomain;PASSED
-;
+
 testMoveSingleUser;PASSED
-;
+
 testAfterMovingToDomainGetandCheckAddressBookEntry;PASSED
-;
+
 testMoveSingleUserToDefaultDomain;PASSED
-;
+
 testRemoveAddressBookEntry;PASSED
-;
+
 testRemoveSystemProfileFromUsers;PASSED
-;
+
 testRemoveSystemProfilesFromMovedDomain;PASSED
-;
+
 testRemoveSystemProfilesFromOriginalDomain;PASSED
 testRemovePresenceSystemProfile;PASSED
-;
-;
-;
-Automation.SA.AdhocConferenceNewSuite Test Results:;
-;
+
+
+
+Automation.SA.AdhocConferenceNewSuite Test Results:
+
 testAssignDomainsToPooledRoute;PASSED
-;
+
 testSetAdhocConfPoolLocations;PASSED
-;
+
 testSetServiceForUser;PASSED
-;
+
 testDefineAdhocConfSystemProfile;PASSED
-;
+
 testAssignAdhocConfSystemProfileToDomain;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 AutoSABasicAdhocConference;SKIPPED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromSystemProfile;PASSED
-;
+
 testRemoveAdhocConfSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
+
 testRemoveAdhocConferencePool;PASSED
-;
+
 testRemoveDomainsFromPooledRoute;PASSED
-;
-;
-;
-Automation.SA.AdvancedScreeningNewSuite Test Results:;
-;
+
+
+
+Automation.SA.AdvancedScreeningNewSuite Test Results:
+
 testSetServicesForUser;PASSED
 testAddSystemProfile;PASSED
-;
+
 testAddDomainsForSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testSetSimRing;PASSED
-;
+
 AutoSABasicSimultaneousRing;PASSED
-;
+
 testRemoveSimRing;PASSED
-;
+
 testSetSeqRing;PASSED
-;
+
 AutoSABasicSequentialRing;PASSED
-;
+
 testRemoveSeqRing;PASSED
-;
+
 testAddAdvancedRoute;PASSED
-;
+
 AutoSABasicSimultaneousRing;PASSED
-;
+
 testRemoveAdvancedRoute;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-;
-Automation.SA.CallParkNewSuite Test Results:;
-;
+
+
+
+Automation.SA.CallParkNewSuite Test Results:
+
 testSetServicesForUser;PASSED
-;
+
 testAddSystemProfile;PASSED
-;
+
 testAddDomainsForSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 AutoSACallParkTransfer;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-;
-Automation.SA.CFVandNCWDNewSuite Test Results:;
-;
+
+
+
+Automation.SA.CFVandNCWDNewSuite Test Results:
+
 testSetServiceForUser;PASSED
-;
+
 testAddCFVSystemProfile;PASSED
-;
+
 testAssignCFVSystemProfileToDomain;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testAddNCWDSystemProfile;PASSED
-;
+
 testAssignNCWDSystemProfileToDomain;PASSED
-;
+
 testSetNCWDSystemProfileForUser;PASSED
-;
+
 testsetCFVRoute;PASSED
-;
+
 AutoSACFVandNCWD;SKIPPED
-;
+
 testRemoveCFVSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromCFVSystemProfile;PASSED
-;
+
 testRemoveCFVSystemProfile;PASSED
-;
+
 testRemoveNCWDSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromNCWDSystemProfile;PASSED
-;
+
 testRemoveNCWDSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-;
-Automation.SA.InitialSubDomainSetupNewSuite Test Results:;
-;
+
+
+
+Automation.SA.InitialSubDomainSetupNewSuite Test Results:
+
 testAddSubDomain;PASSED
-;
+
 testAddUserSubDomainNorth;PASSED
-;
+
 testSetSesmSystemProfileForUser;PASSED
-;
-;
-;
-Automation.SA.MeetMeConferenceNewSuite Test Results:;
-;
+
+
+
+Automation.SA.MeetMeConferenceNewSuite Test Results:
+
 testSetServiceForUser;PASSED
-;
+
 testDefineSystemProfile;PASSED
-;
+
 testAddDomainsForSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testSetDomainData;PASSED
-;
+
 testAssignDomainsToPooledRoute;PASSED
-;
+
 testSetDomainPool;PASSED
-;
+
 testSetPoolLocations;PASSED
-;
+
 testAddAlias;PASSED
-;
+
 testAddDistributionData;PASSED
-;
+
 testAddMeetMeConfUser;PASSED
-;
+
 testChangeChairPin;PASSED
-;
+
 AutoSAMeetMeConferenceSubDomain;PASSED
-;
+
 testRemoveMeetMeConfUser;PASSED
-;
+
 testRemovePSIDataFromDomain;PASSED
-;
+
 testRemoveMeetMeAlias;PASSED
-;
+
 testRemovePoolLocations;PASSED
-;
+
 testRemoveDomainPool;PASSED
-;
+
 testRemoveDomainsFromPooledRoute;PASSED
-;
+
 testRemoveMeetMeDomainData;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-;
-Automation.SA.CallTransferBlockingNewSuite Test Results:;
-;
+
+
+
+Automation.SA.CallTransferBlockingNewSuite Test Results:
+
 testAutoSAAdhocNEConfigParamsSettingTrue;PASSED
-;
+
 testSetServiceForUser;PASSED
-;
+
 testAddSystemProfile;PASSED
-;
+
 testAddDomainsForSystemProfile1;PASSED
-;
+
 testAddDomainsForSystemProfile2;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testAssignDomainsToPooledRoute1;PASSED
-;
+
 testAssignDomainsToPooledRoute2;PASSED
-;
+
 testSetAdhocConfPoolLocations1;PASSED
-;
+
 testSetAdhocConfPoolLocations2;PASSED
-;
+
 testDefineAdhocConfSystemProfile;PASSED
-;
+
 testAssignAdhocConfSystemProfileToDomain1;PASSED
-;
+
 testAssignAdhocConfSystemProfileToDomain2;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 AutoSABlindTransferwithCTB;PASSED
-;
+
 AutoSAConsultativeTransferCTBIntraDomainIntraSystemWithSBC;SKIPPED
-;
+
 AutoSAConsultativeTransferCTBIntraDomainInterSystemWithSBC;SKIPPED
-;
+
 AutoSAConsultativeTransferCTBInterDomainIntraSystemWithSBC;SKIPPED
-;
+
 AutoSAConsultativeTransferCTBInterDomainInterSystemWithSBC;SKIPPED
-;
+
 AutoSAAdhocCTBInterDomainInterSystemWithSBC;SKIPPED
-;
+
 AutoSAAdhocCTBInterDomainIntraSystemWithSBC;SKIPPED
-;
+
 AutoSAAdhocCTBIntraDomainInterSystemWithSBC;SKIPPED
-;
+
 AutoSAAdhocCTBIntraDomainIntraSystemWithSBC;SKIPPED
-;
+
 AutoSACallParkTransferwithCTB;SKIPPED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomain1FromSystemProfile;PASSED
-;
+
 testRemoveDomain2FromSystemProfile;PASSED
-;
+
 testRemoveAdhocConfSystemProfile;PASSED
-;
+
 testRemoveAdhocConfPoolLocations1;PASSED
-;
+
 testRemoveAdhocConfPoolLocations2;PASSED
-;
+
 testRemoveDomain1FromPooledRoute;PASSED
-;
+
 testRemoveDomain2FromPooledRoute;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveDomain1FromSystemProfile;PASSED
-;
+
 testRemoveDomain2FromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
+
 testAutoSAAdhocNEConfigParamsSettingFalse;PASSED
-;
-;
-;
-Automation.SA.CallForwardProgBlockingNewSuite Test Results:;
-;
+
+
+
+Automation.SA.CallForwardProgBlockingNewSuite Test Results:
+
 testSetServiceForUserCTBS_CFV;PASSED
-;
+
 testDefineCallTypeScrSystemProfile;PASSED
-;
+
 testAssignDomainToCallTypeScrSystemProfile;PASSED
-;
+
 testSetSystemProfileForUserCTBS;PASSED
-;
+
 testAddCallScrFeatureXLAForInternationalSetup;PASSED
-;
+
 testAddCallScrFeatureXLAForPremiumSetup;PASSED
-;
+
 testAssignDomainsToPooledRoute;PASSED
-;
+
 testSetTreatmentPoolForDomain;PASSED
-;
+
 testSetTreatmentPoolLocations;PASSED
-;
+
 testAddTreatmentFile;PASSED
-;
+
 testAddTreatmentGroup;PASSED
-;
+
 testDefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testAddVSCFeatureXLA_CFB_VSC;PASSED
-;
+
 testAddVSCFeatureXLA_CFI_VSC;PASSED
-;
+
 testAutoSACallTypeScrInternationalEnabled;PASSED
-;
+
 SetCFBRoute_International_Enabled;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 SetCFIRoute_International_Enabled;PASSED
-;
+
 testRemoveCallFwdSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testAutoSACallTypeScrInternationalDisabled;PASSED
-;
+
 testDefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testSetCFVRoute_International_Disabled;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetCFIRoute_International_Disabled;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testDefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 SetCFBRoute_Premium;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 SetCFIRoute_Premium;PASSED
-;
+
 testAutoSACallTypeScrRemoveAdminProvisionedCallTypeBasedData;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testAddSystemTranslator;PASSED
-;
+
 testSetDomainsForSystemTranslator;PASSED
-;
+
 testAddDomainTranslator;PASSED
-;
+
 testModifyDomainTranslator;PASSED
-;
+
 testDefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 SetCFBRouteWithPremiumOrigXLaDomainTranslator;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 SetCFIRouteWithPremiumOrigXLaDomainTranslator;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testremoveAllDomainsFromSystemProfile;PASSED
-;
+
 testremoveSystemProfile;PASSED
-;
+
 testmodifyDomainTranslator;PASSED
-;
+
 testAutoSACallTypeScrInternationalEnabled;PASSED
-;
+
 testdefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 SetCFBRouteinternationalEnabledonUserInternationalOrigXLaActionStop;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 SetCFIRouteinternationalEnabledonUserInternationalOrigXLaActionStop;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testModifyDomainTranslator;PASSED
-;
+
 testAutoSACallTypeScrInternationalDisabled;PASSED
-;
+
 testDefineCallForwardVariantsSystemProfile;PASSED
-;
+
 testAssignDomainToCallForwardVariantsSystemProfile;PASSED
-;
+
 testSetSystemProfileForUser;PASSED
-;
+
 testsetCFBRouteCallTypeScrInternationalDisabledOrigXlaInternational;PASSED
-;
+
 testModifyCallForwardVariantsSystemProfile;PASSED
-;
+
 testsetCFIRouteCallTypeScrInternationalDisabledOrigXlaInternational;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromSystemProfile;PASSED
-;
+
 testRemoveSystemProfile;PASSED
-;
+
 testRemoveCallScrFeatureXLA;PASSED
-;
+
 testRemoveCallScrFeatureXLA;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllDomainsFromCallTypeScrSystemProfile;PASSED
-;
+
 testRemoveCallTypeScrSystemProfile;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
+
 testRemoveTreatmentGroup;PASSED
-;
+
 testRemoveTreatmentFile;PASSED
-;
+
 testRemoveTreatmentPoolLocations;PASSED
-;
+
 testRemoveTreatmentPoolFromDomain;PASSED
-;
+
 testRemoveDomainsFromPooledRoute;PASSED
-;
+
 testRemoveSystemProfileFromUser;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
+
 testRemoveVSCFeatureXLA_CFB_VSC;PASSED
-;
+
 testRemoveVSCFeatureXLA_CFI_VSC;PASSED
-;
+
 testRemoveDomainTranslator;PASSED
-;
+
 testRemoveSystemTranslator;PASSED
-;
-;
-;
-Automation.SA.RemoveSubDomainSetupNewSuite Test Results:;
-;
+
+
+
+Automation.SA.RemoveSubDomainSetupNewSuite Test Results:
+
 testRemoveSubDomainUsers;PASSED
-;
+
 testRemoveSubDomain;PASSED
-;
-;
-;
-Automation.SA.AutoSACUGIMChatNewSuite Test Results:;
-;
+
+
+
+Automation.SA.AutoSACUGIMChatNewSuite Test Results:
+
 testJustSetIMChatServiceForUser;PASSED
-;
+
 testBothSetCUGandIMChatServicesForUser;PASSED
-;
+
 testAddCUGGroup1;PASSED
-;
+
 testAddCUGGroup2;PASSED
-;
+
 testAddUsersToCUGGroup1;PASSED
-;
+
 testAddUsersToCUGGroup2;PASSED
-;
+
 testAssignDomainsToPooledRoute;PASSED
-;
+
 testSetDomainPool;PASSED
-;
+
 testAddIMChatSystemProfile;PASSED
-;
+
 testAddDomainsForIMChatSystemProfile;PASSED
-;
+
 testSetIMChatSystemProfileForUser;PASSED
-;
+
 AutoSACUGIMChatRoom;SKIPPED
-;
+
 AutoSAInterCUGIMChatRoom;SKIPPED
-;
+
 AutoSACUGAndNonCUGIMChatRoom;SKIPPED
-;
+
 testRemoveIMChatSystemProfileFromUser;PASSED
-;
+
 testRemoveDomainsFromIMChatSystemProfile;PASSED
-;
+
 testRemoveIMChatSystemProfile;PASSED
-;
+
 testRemoveDomainPool;PASSED
-;
+
 testRemoveDomainsFromPooledRoute;PASSED
-;
+
 testRemoveCUGGroup1;PASSED
-;
+
 testRemoveCUGGroup2;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-Automation.SA.RemoveSetupForDemoDomainTestSuite Test Results:;
+
+
+Automation.SA.RemoveSetupForDemoDomainTestSuite Test Results:
 testAutoSARemoveUserForSesm1DemoDomain;PASSED
 testAutoSARemoveAllServicesFromDemoDomain;PASSED
 testAutoSARemoveDemoDomainResources;PASSED
 testAutoSARemoveDemoDomain;PASSED
-;
-;
-Automation.SSL.UCDNewSuite Test Results:;
-;
+
+
+Automation.SSL.UCDNewSuite Test Results:
+
 testsetServiceForUser;PASSED
-;
+
 testaddgroup;PASSED
-;
+
 testassignAdminToUCDGroup;PASSED
-;
+
 testsetProfileForUCDGroup;PASSED
-;
+
 testsetUCDGroupAgentStatus;PASSED
-;
+
 testsetUCDGroupQueueStatus;PASSED
-;
+
 AutoSSLUCDMaxWaitTime;SKIPPED
-;
+
 testremoveAdminFromUCDGroup;PASSED
-;
+
 testremoveUCDGroup;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-;
-Automation.Mixed.MCTNewSuite Test Results:;
-;
+
+
+
+Automation.Mixed.MCTNewSuite Test Results:
+
 testSetServicesForUser;PASSED
-;
+
 testSetSystemData;PASSED
-;
+
 testSetFiles;PASSED
-;
+
 testSetDomainData;PASSED
-;
+
 testAddMCTVSC;PASSED
-;
+
 AutoPSTNtoSSLMCTVSCDialing;FAILED
-;
+
 testRemoveMCTVSC;PASSED
-;
+
 testRemoveDomainData;PASSED
-;
+
 testRemoveFiles;PASSED
-;
+
 testRemoveSystemData;PASSED
-;
+
 testRemoveAllServicesFromUser;PASSED
-;
-;
-Automation.SA.RemoveSetupTestSuite Test Results:;
+
+
+Automation.SA.RemoveSetupTestSuite Test Results:
 testAutoRemoveUserForSesm1DomainA;PASSED
 testAutoRemoveUserForSesm2DomainA;PASSED
 testAutoRemoveUsersForSesm1DomainB;PASSED
